@@ -2,13 +2,20 @@ using UnityEngine;
 
 public class PlayerCollision : MonoBehaviour
 {
+    public SnailFollow snail;
+
     private bool isHoveringSalt = false;
+    private GameObject currentSalt;
 
     void Update()
     {
         if (isHoveringSalt && Input.GetMouseButtonDown(0))
         {
             Debug.Log("Collected Salt");
+
+            snail.FreezeSnail(2f);
+
+            Destroy(currentSalt);
         }
     }
 
@@ -23,6 +30,7 @@ public class PlayerCollision : MonoBehaviour
         if (other.CompareTag("Salt"))
         {
             isHoveringSalt = true;
+            currentSalt = other.gameObject;
         }
     }
 
@@ -31,6 +39,7 @@ public class PlayerCollision : MonoBehaviour
         if (other.CompareTag("Salt"))
         {
             isHoveringSalt = false;
+            currentSalt = null;
         }
     }
 }
