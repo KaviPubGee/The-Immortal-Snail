@@ -5,6 +5,9 @@ public class SaltSpawner : MonoBehaviour
 {
     [Header("References")]
     public GameObject saltPrefab;
+    public GameObject snailSaltPrefab;
+    public int saltCollected = 0;
+    public bool snailSaltUnlocked = false;
     public SnailFollow snail;
 
     [Header("Spawn Area")]
@@ -42,18 +45,49 @@ public class SaltSpawner : MonoBehaviour
 
     void SpawnSalt()
     {
+        GameObject prefabToSpawn;
+
         float randomX = Random.Range(minX, maxX);
         float randomY = Random.Range(minY, maxY);
 
         Vector2 spawnPosition = new Vector2(randomX, randomY);
 
-        currentSalt = Instantiate(saltPrefab, spawnPosition, Quaternion.identity);
+        if(snailSaltUnlocked == false)
+        {
+            prefabToSpawn = saltPrefab;
+        }
+        else
+        {
+            float randomChance = Random.Range(0f, 1f);
+
+            if (randomChance < 0.4f)
+            {
+                prefabToSpawn = snailSaltPrefab;
+            }
+            else
+            {
+                prefabToSpawn = saltPrefab;
+            }
+        }
+
+        currentSalt = Instantiate(prefabToSpawn, spawnPosition, Quaternion.identity);
 
         Salt saltScript = currentSalt.GetComponent<Salt>();
 
         if (saltScript != null)
         {
             saltScript.snail = snail;
+        }
+    }
+
+    public void AddSaltCollected()
+    {
+        saltCollected ++;
+
+        if (saltCollected >= 5 && snailSaltUnlocked == false)
+        {
+            snailSaltUnlocked = true;
+            Debug.Log("The snail is evolving");
         }
     }
 }

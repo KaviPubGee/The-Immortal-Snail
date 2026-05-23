@@ -145,7 +145,7 @@ Transform:
   m_GameObject: {fileID: 83072237}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.46932268, y: -0.220431, z: -0.017399956}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -164,12 +164,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   saltPrefab: {fileID: 759196816231241964, guid: 94f93c517350e224f8b75585bd820859, type: 3}
+  snailSaltPrefab: {fileID: 226632757368434774, guid: 8baf1621221f8f2438541fc0b0bdcb35, type: 3}
+  saltCollected: 0
+  snailSaltUnlocked: 0
   snail: {fileID: 2011141294}
   minX: -8
   maxX: 8
   minY: -4
   maxY: 4
-  spawnDelay: 2
+  spawnDelay: 3
 --- !u!1 &237154772
 GameObject:
   m_ObjectHideFlags: 0
@@ -231,12 +234,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: -10
-  m_Sprite: {fileID: -3506304317466773054, guid: 8c342de13cbe50e4388fd0706bbfa947, type: 3}
-  m_Color: {r: 0.2679245, g: 0.2679245, b: 0.2679245, a: 1}
+  m_Sprite: {fileID: -4010512762590064909, guid: 8c342de13cbe50e4388fd0706bbfa947, type: 3}
+  m_Color: {r: 0.5169811, g: 0.5169811, b: 0.5169811, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 2
-  m_Size: {x: 8.878918, y: 5.339478}
+  m_Size: {x: 12, y: 12}
   m_AdaptiveModeThreshold: 0
   m_SpriteTileMode: 1
   m_WasSpriteAssigned: 1
@@ -252,7 +255,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.0077, y: -0.0284, z: 0}
-  m_LocalScale: {x: 2.256, y: 2.256, z: 2.256}
+  m_LocalScale: {x: 2.04, y: 2.04, z: 2.04}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
@@ -478,6 +481,62 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &862495493
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 862495495}
+  - component: {fileID: 862495494}
+  m_Layer: 0
+  m_Name: CurseManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &862495494
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 862495493}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c4ef52752ec02640b0af15e7bd03b57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerMovement: {fileID: 2115040985}
+  playerSprite: {fileID: 2115040991}
+  snail: {fileID: 2011141294}
+  snailSprite: {fileID: 2011141295}
+  invertMouseTime: 4
+  invisibleSnailTime: 4
+  invisiblePlayerTime: 3
+  playerFrozenTime: 2
+  snailBoostTime: 4
+  invisibleSnailAlpha: 0.15
+  invisiblePlayerAlpha: 0.1
+  snailBoostMultiplier: 2
+--- !u!4 &862495495
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 862495493}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2011141293
 GameObject:
   m_ObjectHideFlags: 0
@@ -678,6 +737,10 @@ MonoBehaviour:
   maxX: 8.5
   minY: -4.5
   maxY: 4.5
+  openHandSprite: {fileID: 2926929911320684054, guid: fdfb5da848d475643a623181133fa9f5, type: 3}
+  closedHandSprite: {fileID: 8784844329768798039, guid: 4f6795cf27fb2f14ba6f809bfbc61592, type: 3}
+  isInverted: 0
+  isFrozen: 0
 --- !u!4 &2115040987
 Transform:
   m_ObjectHideFlags: 0
@@ -742,6 +805,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   snail: {fileID: 2011141294}
+  spawner: {fileID: 83072240}
+  curseManager: {fileID: 862495494}
 --- !u!50 &2115040990
 Rigidbody2D:
   serializedVersion: 5
@@ -834,3 +899,4 @@ SceneRoots:
   - {fileID: 2011141296}
   - {fileID: 2115040987}
   - {fileID: 83072239}
+  - {fileID: 862495495}

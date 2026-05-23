@@ -3,6 +3,8 @@ using UnityEngine;
 public class PlayerCollision : MonoBehaviour
 {
     public SnailFollow snail;
+    public SaltSpawner spawner;
+    public CurseManager curseManager;
 
     private bool isHoveringSalt = false;
     private GameObject currentSalt;
@@ -11,11 +13,27 @@ public class PlayerCollision : MonoBehaviour
     {
         if (isHoveringSalt && Input.GetMouseButtonDown(0))
         {
-            Debug.Log("Collected Salt");
+            if (currentSalt.CompareTag("Salt"))
+            {
+                Debug.Log("Collected Salt");
 
-            snail.FreezeSnail(2f);
+                snail.FreezeSnail(2f);
 
-            Destroy(currentSalt);
+                spawner.AddSaltCollected();
+
+                Destroy(currentSalt);
+            }
+            else if (currentSalt.CompareTag("SnailSalt"))
+            {
+                Debug.Log("You picked the wrong salt!");
+
+                curseManager.TriggerRandomCurse();
+
+                Destroy(currentSalt);
+            }
+
+            isHoveringSalt = false;
+            currentSalt = null;
         }
     }
 
@@ -27,7 +45,7 @@ public class PlayerCollision : MonoBehaviour
             Debug.Log("You lost!");
         }
 
-        if (other.CompareTag("Salt"))
+        if (other.CompareTag("Salt") || other.CompareTag("SnailSalt"))
         {
             isHoveringSalt = true;
             currentSalt = other.gameObject;
@@ -36,7 +54,7 @@ public class PlayerCollision : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D other)
     {
-        if (other.CompareTag("Salt"))
+        if (other.CompareTag("Salt") || other.CompareTag("SnailSalt"))
         {
             isHoveringSalt = false;
             currentSalt = null;
