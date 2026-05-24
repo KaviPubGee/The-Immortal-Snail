@@ -21,6 +21,8 @@ public class SaltSpawner : MonoBehaviour
 
     private GameObject currentSalt;
 
+    public bool firstSaltSpawned = false;
+
     void Start()
     {
         StartCoroutine(SpawnSaltRoutine());
@@ -28,6 +30,10 @@ public class SaltSpawner : MonoBehaviour
 
     IEnumerator SpawnSaltRoutine()
     {
+        yield return new WaitForSeconds(8f);
+
+        firstSaltSpawned = true;
+
         while (true)
         {
             SpawnSalt();

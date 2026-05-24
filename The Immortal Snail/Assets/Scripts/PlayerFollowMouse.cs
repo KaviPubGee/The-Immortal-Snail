@@ -21,11 +21,16 @@ public class PlayerFollowMouse : MonoBehaviour
 
     void Start()
     {
+        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Confined;
+
         lastMouseWorldPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         lastMouseWorldPos.z = 0f;
 
-        Cursor.visible = false;
-        Cursor.lockState = CursorLockMode.Confined;
+        // Put player sprite exactly where the mouse starts
+        lastMouseWorldPos.x = Mathf.Clamp(lastMouseWorldPos.x, minX, maxX);
+        lastMouseWorldPos.y = Mathf.Clamp(lastMouseWorldPos.y, minY, maxY);
+        transform.position = lastMouseWorldPos;
 
         spriteRenderer = GetComponent<SpriteRenderer>();
         spriteRenderer.sprite = openHandSprite;

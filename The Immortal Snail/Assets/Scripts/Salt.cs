@@ -37,8 +37,4 @@ public class Salt : MonoBehaviour
 
         Destroy(gameObject);
     }
-    void Update()
-    {
-        
-    }
 }
