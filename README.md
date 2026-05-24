@@ -83,3 +83,21 @@ After a short time, a message appears:
 
 ```text
 THE SNAIL IS EVOLVING...
+```
+---
+
+## Play the Game
+
+You can play the game here:
+
+[Play The Immortal Snail on itch.io](https://kavindugeeganage.itch.io/the-immortal-snail)
+
+---
+
+## Screenshots
+
+<img width="1079" height="604" alt="Screenshot 2026-05-24 235651" src="https://github.com/user-attachments/assets/27dff606-0624-4669-96b4-539e7c96f2df" />
+<img width="1077" height="605" alt="Screenshot 2026-05-24 235529" src="https://github.com/user-attachments/assets/5904e332-514d-4c86-87de-cfd6a95cf146" />
+<img width="1078" height="606" alt="Screenshot 2026-05-24 235332" src="https://github.com/user-attachments/assets/e32d7d1d-3258-4eee-9846-bcabdbbe0cc6" />
+<img width="1079" height="605" alt="Screenshot 2026-05-24 235738" src="https://github.com/user-attachments/assets/5614385f-2604-4dea-9b55-3dd733f9f2cc" />
+
