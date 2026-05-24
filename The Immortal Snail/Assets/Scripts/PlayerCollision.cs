@@ -9,6 +9,10 @@ public class PlayerCollision : MonoBehaviour
     private bool isHoveringSalt = false;
     private GameObject currentSalt;
 
+    public bool pickedUpCursedSaltFirstTime = false;
+    
+    public int saltCollected = 0;
+
     void Update()
     {
         if (isHoveringSalt && Input.GetMouseButtonDown(0))
@@ -16,6 +20,8 @@ public class PlayerCollision : MonoBehaviour
             if (currentSalt.CompareTag("Salt"))
             {
                 Debug.Log("Collected Salt");
+
+                saltCollected++;
 
                 snail.FreezeSnail(2f);
 
@@ -26,6 +32,10 @@ public class PlayerCollision : MonoBehaviour
             else if (currentSalt.CompareTag("SnailSalt"))
             {
                 Debug.Log("You picked the wrong salt!");
+
+                saltCollected = Mathf.Max(0, saltCollected - 1);
+
+                pickedUpCursedSaltFirstTime = true;
 
                 curseManager.TriggerRandomCurse();
 

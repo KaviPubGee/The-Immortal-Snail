@@ -32,11 +32,15 @@ public class SaltSpawner : MonoBehaviour
     {
         yield return new WaitForSeconds(8f);
 
-        firstSaltSpawned = true;
-
         while (true)
         {
             SpawnSalt();
+
+            if (!firstSaltSpawned)
+            {
+                yield return new WaitForSeconds(0.5f);
+                firstSaltSpawned = true;
+            }
 
             //Wait while salt exists
             while (currentSalt != null)
