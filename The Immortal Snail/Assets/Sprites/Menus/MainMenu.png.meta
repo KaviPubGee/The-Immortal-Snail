@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 026bbac3e41254a4d93805761c8c2685
+guid: 42c4ec4d91a9e674185cc5317904f67f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2511258727045535061
-    second: ChatGPT_Image_May_24__2026__12_43_32_PM-removebg-preview_0
+      213: 6476435561007633653
+    second: ChatGPT Image May 24, 2026, 09_26_37 PM_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ChatGPT_Image_May_24__2026__12_43_32_PM-removebg-preview_0
+      name: ChatGPT Image May 24, 2026, 09_26_37 PM_0
       rect:
         serializedVersion: 2
-        x: 35
-        y: 33
-        width: 796
-        height: 228
+        x: 0
+        y: 0
+        width: 1672
+        height: 941
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 55516acc188c9d220800000000000000
-      internalID: 2511258727045535061
+      spriteID: 5f4519044dbe0e950800000000000000
+      internalID: 6476435561007633653
       vertices: []
       indices: 
       edges: []
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      ChatGPT_Image_May_24__2026__12_43_32_PM-removebg-preview_0: 2511258727045535061
+      ChatGPT Image May 24, 2026, 09_26_37 PM_0: 6476435561007633653
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,13 +1,10 @@
 fileFormatVersion: 2
-guid: 40074a07795887848b21a17834392f99
+guid: 73eb5bf55e945a44da92079ef0cbc700
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1145005066993502749
-    second: ChatGPT_Image_May_23__2026__12_51_41_PM-removebg-preview_0
-  - first:
-      213: -136063455099524736
-    second: ChatGPT_Image_May_23__2026__12_51_41_PM-removebg-preview_1
+      213: 4146752850321066981
+    second: ChatGPT Image May 24, 2026, 09_53_41 PM_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -40,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -54,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 32
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -78,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -129,45 +126,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SaltBags
+      name: ChatGPT Image May 24, 2026, 09_53_41 PM_0
       rect:
         serializedVersion: 2
-        x: 129
-        y: 138
-        width: 122
-        height: 160
+        x: 0
+        y: 0
+        width: 1672
+        height: 941
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3e574d345ff1c10f0800000000000000
-      internalID: -1145005066993502749
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ChatGPT_Image_May_23__2026__12_51_41_PM-removebg-preview_1
-      rect:
-        serializedVersion: 2
-        x: 326
-        y: 138
-        width: 122
-        height: 160
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 08961eb220b9c1ef0800000000000000
-      internalID: -136063455099524736
+      spriteID: 5ebc9b63fb93c8930800000000000000
+      internalID: 4146752850321066981
       vertices: []
       indices: 
       edges: []
@@ -176,7 +151,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 961f81cd28993924ebabcca289dbefef
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -186,8 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      ChatGPT_Image_May_23__2026__12_51_41_PM-removebg-preview_1: -136063455099524736
-      SaltBags: -1145005066993502749
+      ChatGPT Image May 24, 2026, 09_53_41 PM_0: 4146752850321066981
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

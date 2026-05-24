@@ -18,6 +18,7 @@ public class CurseManager : MonoBehaviour
     public SpriteRenderer playerSprite;
     public SnailFollow snail;
     public SpriteRenderer snailSprite;
+    public GameOverManager gameOverManager;
 
 
     [Header("Curse Durations")]
@@ -92,8 +93,8 @@ public class CurseManager : MonoBehaviour
         }
         else if (curse == CurseType.InstantGameOver)
         {
-            Debug.Log("RARE CURSE: Instant game over");
-            Debug.Log("You lost!");
+            if (gameOverManager != null)
+                gameOverManager.TriggerGameOver();
         }
     }
 

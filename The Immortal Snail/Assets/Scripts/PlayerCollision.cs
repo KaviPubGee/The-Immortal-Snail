@@ -5,6 +5,7 @@ public class PlayerCollision : MonoBehaviour
     public SnailFollow snail;
     public SaltSpawner spawner;
     public CurseManager curseManager;
+    public GameOverManager gameOverManager;
 
     private bool isHoveringSalt = false;
     private GameObject currentSalt;
@@ -52,7 +53,8 @@ public class PlayerCollision : MonoBehaviour
     {
         if (other.CompareTag("Snail"))
         {
-            Debug.Log("You lost!");
+            if (gameOverManager != null)
+                gameOverManager.TriggerGameOver();
         }
 
         if (other.CompareTag("Salt") || other.CompareTag("SnailSalt"))

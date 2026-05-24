@@ -5,9 +5,12 @@ using UnityEngine.UI;
 
 public class DialogueManager : MonoBehaviour
 {
+    public AudioSource dialougeSound;
+
     public PlayerFollowMouse playerFollowMouse;
     public SaltSpawner saltSpawner;
     public PlayerCollision playerCollision;
+    public PauseMenu pauseMenu;
 
     public TMP_Text dialogueText;
     public TypeWriterEffect typeWriter;
@@ -39,6 +42,11 @@ public class DialogueManager : MonoBehaviour
     private int currentLineIndex = 0;
 
     private bool dialogueActive = false;
+    public bool IsDialogueActive
+    {
+        get{return dialogueActive;}
+    }
+
     private bool playedFirstSaltDialogue = false;
     private bool playedFirstSaltDialogueAfterCollecting = false;
     private bool playedFirstDialogueAfterCollectingFive = false;
@@ -52,6 +60,18 @@ public class DialogueManager : MonoBehaviour
 
     void Update()
     {
+        if (pauseMenu != null && pauseMenu.IsPaused)
+        {
+            // Stop audio while paused
+            if (dialougeSound.isPlaying)
+                dialougeSound.Stop();
+            return;
+        }
+
+        // Resume audio if typewriter is still typing after unpause
+        if (dialogueActive && typeWriter.isTyping && !dialougeSound.isPlaying)
+            dialougeSound.Play();
+
         if (saltSpawner.firstSaltSpawned && !playedFirstSaltDialogue && !dialogueActive)
         {
             playedFirstSaltDialogue = true;
@@ -82,7 +102,12 @@ public class DialogueManager : MonoBehaviour
 
         if (!dialogueActive) return;
 
-        if (Input.GetKeyDown(KeyCode.Return) || Input.GetKeyDown(KeyCode.KeypadEnter) || Input.GetMouseButton(0))
+        if (!typeWriter.isTyping && dialougeSound.isPlaying)
+        {
+            dialougeSound.Stop();
+        }
+
+        if (Input.GetKeyDown(KeyCode.Return) || Input.GetKeyDown(KeyCode.KeypadEnter))
         {
             if (typeWriter.isTyping)
             {
@@ -104,6 +129,11 @@ public class DialogueManager : MonoBehaviour
         Cursor.visible = false;
 
         yield return new WaitForSecondsRealtime(3f);
+
+        while (pauseMenu != null && pauseMenu.IsPaused)
+        {
+            yield return null;
+        }
 
         StartDialogue(introDialogue);
     }
@@ -211,6 +241,7 @@ public class DialogueManager : MonoBehaviour
             }
         }
 
+        dialougeSound.Play();
         typeWriter.Run(currentDialogue[currentLineIndex], dialogueText, typeSpeed);
     }
 
@@ -229,6 +260,8 @@ public class DialogueManager : MonoBehaviour
 
     void EndDialogue()
     {
+        dialougeSound.Stop();
+
         Debug.Log("Dialogue finished");
 
         dialogueActive = false;
