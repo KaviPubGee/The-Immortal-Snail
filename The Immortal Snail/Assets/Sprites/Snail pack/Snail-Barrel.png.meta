@@ -1,0 +1,1235 @@
+fileFormatVersion: 2
+guid: c9eb9d170eeee1b47a97615a16c95f18
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3912887533117626931
+    second: Snail-Barrel_0
+  - first:
+      213: -8485416350990826297
+    second: Snail-Barrel_1
+  - first:
+      213: -754768323376680208
+    second: Snail-Barrel_2
+  - first:
+      213: 2469022997898097960
+    second: Snail-Barrel_3
+  - first:
+      213: 4585822451439565478
+    second: Snail-Barrel_4
+  - first:
+      213: 5749617862847736213
+    second: Snail-Barrel_5
+  - first:
+      213: 2595748984433557542
+    second: Snail-Barrel_6
+  - first:
+      213: -9118439433655157581
+    second: Snail-Barrel_7
+  - first:
+      213: 2472044379638469207
+    second: Snail-Barrel_8
+  - first:
+      213: -3789364510821114067
+    second: Snail-Barrel_9
+  - first:
+      213: 8994080208503841603
+    second: Snail-Barrel_10
+  - first:
+      213: 6054732479915638152
+    second: Snail-Barrel_11
+  - first:
+      213: -528197816047167921
+    second: Snail-Barrel_12
+  - first:
+      213: -4126848203804542497
+    second: Snail-Barrel_13
+  - first:
+      213: 3372720312383689036
+    second: Snail-Barrel_14
+  - first:
+      213: 6215515516846145524
+    second: Snail-Barrel_15
+  - first:
+      213: 2196489227748340473
+    second: Snail-Barrel_16
+  - first:
+      213: -7793654287405758678
+    second: Snail-Barrel_17
+  - first:
+      213: 3759626618358770833
+    second: Snail-Barrel_18
+  - first:
+      213: -6765450493592263762
+    second: Snail-Barrel_19
+  - first:
+      213: -1381030736194825694
+    second: Snail-Barrel_20
+  - first:
+      213: -1451379747809697708
+    second: Snail-Barrel_21
+  - first:
+      213: -7907049284642846608
+    second: Snail-Barrel_22
+  - first:
+      213: -8936461371510532399
+    second: Snail-Barrel_23
+  - first:
+      213: 1255724924713935363
+    second: Snail-Barrel_24
+  - first:
+      213: -7734270664768157535
+    second: Snail-Barrel_25
+  - first:
+      213: 2032188698972072120
+    second: Snail-Barrel_26
+  - first:
+      213: -8385026063488750255
+    second: Snail-Barrel_27
+  - first:
+      213: 2471075747615612781
+    second: Snail-Barrel_28
+  - first:
+      213: -2162890255693526679
+    second: Snail-Barrel_29
+  - first:
+      213: -5918300291841274465
+    second: Snail-Barrel_30
+  - first:
+      213: -238521207728522671
+    second: Snail-Barrel_31
+  - first:
+      213: 4996444155678318515
+    second: Snail-Barrel_32
+  - first:
+      213: -3796068781951872654
+    second: Snail-Barrel_33
+  - first:
+      213: 7637956610727859743
+    second: Snail-Barrel_34
+  - first:
+      213: -5289438013318949290
+    second: Snail-Barrel_35
+  - first:
+      213: -1093185580154856667
+    second: Snail-Barrel_36
+  - first:
+      213: 5311404616963988158
+    second: Snail-Barrel_37
+  - first:
+      213: 4384052767131408341
+    second: Snail-Barrel_38
+  - first:
+      213: -6496439127331007465
+    second: Snail-Barrel_39
+  - first:
+      213: 3184640060618617402
+    second: Snail-Barrel_40
+  - first:
+      213: -671595746173017653
+    second: Snail-Barrel_41
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Snail-Barrel_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 101
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc5287e1581a2b9c0800000000000000
+      internalID: -3912887533117626931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Barrel_1
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 101
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c486e359cebd3a80800000000000000
+      internalID: -8485416350990826297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Barrel_2
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 101
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f27a6575368685f0800000000000000
+      internalID: -754768323376680208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Barrel_3
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 103
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8257cfbc55bb34220800000000000000
+      internalID: 2469022997898097960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Barrel_4
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 100
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6aaf01d093d14af30800000000000000
+      internalID: 4585822451439565478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Barrel_5
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 95
+        width: 50
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 599a745cbfebacf40800000000000000
+      internalID: 5749617862847736213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Barrel_6
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 103
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6204e3fc2f3f50420800000000000000
+      internalID: 2595748984433557542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Barrel_7
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 132
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bcf11b85abc47180800000000000000
+      internalID: -9118439433655157581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Barrel_8
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 104
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7521a5d04477e4220800000000000000
+      internalID: 2472044379638469207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Barrel_9
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 133
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2f1908ed09796bc0800000000000000
+      internalID: -3789364510821114067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Barrel_10
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 106
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3432e350c4461dc70800000000000000
+      internalID: 8994080208503841603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Barrel_11
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 109
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88d34637c1bb60450800000000000000
+      internalID: 6054732479915638152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Barrel_12
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 108
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f461f5382e67ba8f0800000000000000
+      internalID: -528197816047167921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Barrel_13
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 105
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd975427c6d7ab6c0800000000000000
+      internalID: -4126848203804542497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Barrel_14
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 63
+        width: 37
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c41df52314f4ece20800000000000000
+      internalID: 3372720312383689036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Barrel_15
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 60
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fffa8d6e62f14650800000000000000
+      internalID: 6215515516846145524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Barrel_16
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 63
+        width: 37
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f279eca05f7b7e10800000000000000
+      internalID: 2196489227748340473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Barrel_17
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 62
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a27caf8d7b067d390800000000000000
+      internalID: -7793654287405758678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Barrel_18
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 63
+        width: 37
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19ca0637d70ec2430800000000000000
+      internalID: 3759626618358770833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Barrel_19
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 80
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea321f7fe9a4c12a0800000000000000
+      internalID: -6765450493592263762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Barrel_20
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 63
+        width: 37
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2221639ccd795dce0800000000000000
+      internalID: -1381030736194825694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Barrel_21
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 81
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4506b912fc9abdbe0800000000000000
+      internalID: -1451379747809697708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Barrel_22
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 63
+        width: 40
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0784b57a194844290800000000000000
+      internalID: -7907049284642846608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Barrel_23
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 63
+        width: 40
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d65d12eabf4bf380800000000000000
+      internalID: -8936461371510532399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Barrel_24
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 63
+        width: 40
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 302ad297a2b3d6110800000000000000
+      internalID: 1255724924713935363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Barrel_25
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 63
+        width: 31
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a805cdeec95aa490800000000000000
+      internalID: -7734270664768157535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Barrel_26
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 63
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b82bcecad8c33c10800000000000000
+      internalID: 2032188698972072120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Barrel_27
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 59
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15d6c55983762ab80800000000000000
+      internalID: -8385026063488750255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Barrel_28
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 9
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6f16b5dc460b4220800000000000000
+      internalID: 2471075747615612781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Barrel_29
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 9
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 969cb3d95cedbf1e0800000000000000
+      internalID: -2162890255693526679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Barrel_30
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 9
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9dc5b6bd39fddda0800000000000000
+      internalID: -5918300291841274465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Barrel_31
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 10
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15ab1fda93a90bcf0800000000000000
+      internalID: -238521207728522671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Barrel_32
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 12
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bf584fbc7fe65540800000000000000
+      internalID: 4996444155678318515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Barrel_33
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 11
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2711fc42e87a15bc0800000000000000
+      internalID: -3796068781951872654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Barrel_34
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 0
+        width: 50
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f16d740e1197ff960800000000000000
+      internalID: 7637956610727859743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Barrel_35
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 11
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6561daac6242896b0800000000000000
+      internalID: -5289438013318949290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Barrel_36
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 38
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52b5a4db18934d0f0800000000000000
+      internalID: -1093185580154856667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Barrel_37
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 11
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eba128cab56e5b940800000000000000
+      internalID: 5311404616963988158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Barrel_38
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 39
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d79f6593c847dc30800000000000000
+      internalID: 4384052767131408341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Barrel_39
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 14
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7149c76880308d5a0800000000000000
+      internalID: -6496439127331007465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Barrel_40
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 12
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a32b6ae134d123c20800000000000000
+      internalID: 3184640060618617402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Barrel_41
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 13
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc1a1b42a330ea6f0800000000000000
+      internalID: -671595746173017653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Snail-Barrel_0: -3912887533117626931
+      Snail-Barrel_1: -8485416350990826297
+      Snail-Barrel_10: 8994080208503841603
+      Snail-Barrel_11: 6054732479915638152
+      Snail-Barrel_12: -528197816047167921
+      Snail-Barrel_13: -4126848203804542497
+      Snail-Barrel_14: 3372720312383689036
+      Snail-Barrel_15: 6215515516846145524
+      Snail-Barrel_16: 2196489227748340473
+      Snail-Barrel_17: -7793654287405758678
+      Snail-Barrel_18: 3759626618358770833
+      Snail-Barrel_19: -6765450493592263762
+      Snail-Barrel_2: -754768323376680208
+      Snail-Barrel_20: -1381030736194825694
+      Snail-Barrel_21: -1451379747809697708
+      Snail-Barrel_22: -7907049284642846608
+      Snail-Barrel_23: -8936461371510532399
+      Snail-Barrel_24: 1255724924713935363
+      Snail-Barrel_25: -7734270664768157535
+      Snail-Barrel_26: 2032188698972072120
+      Snail-Barrel_27: -8385026063488750255
+      Snail-Barrel_28: 2471075747615612781
+      Snail-Barrel_29: -2162890255693526679
+      Snail-Barrel_3: 2469022997898097960
+      Snail-Barrel_30: -5918300291841274465
+      Snail-Barrel_31: -238521207728522671
+      Snail-Barrel_32: 4996444155678318515
+      Snail-Barrel_33: -3796068781951872654
+      Snail-Barrel_34: 7637956610727859743
+      Snail-Barrel_35: -5289438013318949290
+      Snail-Barrel_36: -1093185580154856667
+      Snail-Barrel_37: 5311404616963988158
+      Snail-Barrel_38: 4384052767131408341
+      Snail-Barrel_39: -6496439127331007465
+      Snail-Barrel_4: 4585822451439565478
+      Snail-Barrel_40: 3184640060618617402
+      Snail-Barrel_41: -671595746173017653
+      Snail-Barrel_5: 5749617862847736213
+      Snail-Barrel_6: 2595748984433557542
+      Snail-Barrel_7: -9118439433655157581
+      Snail-Barrel_8: 2472044379638469207
+      Snail-Barrel_9: -3789364510821114067
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

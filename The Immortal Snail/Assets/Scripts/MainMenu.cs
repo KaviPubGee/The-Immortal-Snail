@@ -5,6 +5,7 @@ public class MainMenu : MonoBehaviour
 {
     public void Play()
     {
+        DialogueManager.ResetDialogueFlags();
         SceneManager.LoadScene("MainLevel");
     }
 

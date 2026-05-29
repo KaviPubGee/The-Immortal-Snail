@@ -86,7 +86,7 @@ public class SnailFollow : MonoBehaviour
     {
         isPlayingSpecialAnimation = true;
 
-        spriteRenderer.flipX = !lastFlipX;
+        spriteRenderer.flipX = lastFlipX;
         PlayAnimation("Snail_Hide");
 
         yield return new WaitForSeconds(0.5f);
@@ -97,7 +97,7 @@ public class SnailFollow : MonoBehaviour
 
         isFrozen = false;
 
-        spriteRenderer.flipX = !lastFlipX;
+        spriteRenderer.flipX = lastFlipX;
         PlayAnimation("Snail_Appear");
 
         yield return new WaitForSeconds(0.5f);

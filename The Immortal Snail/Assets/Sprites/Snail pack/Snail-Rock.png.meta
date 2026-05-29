@@ -1,0 +1,1235 @@
+fileFormatVersion: 2
+guid: 08bf8fa9c99a7f346921d1e3ccf0d90f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2526494000731548272
+    second: Snail-Rock_0
+  - first:
+      213: -1995269469387330950
+    second: Snail-Rock_1
+  - first:
+      213: 6261867309380571436
+    second: Snail-Rock_2
+  - first:
+      213: -9144817589580133932
+    second: Snail-Rock_3
+  - first:
+      213: -3140123723916859452
+    second: Snail-Rock_4
+  - first:
+      213: -805044394685691127
+    second: Snail-Rock_5
+  - first:
+      213: 5413041897497174370
+    second: Snail-Rock_6
+  - first:
+      213: -6673671885173837406
+    second: Snail-Rock_7
+  - first:
+      213: -3921798113094495109
+    second: Snail-Rock_8
+  - first:
+      213: 188949544662814486
+    second: Snail-Rock_9
+  - first:
+      213: -7410128915897796845
+    second: Snail-Rock_10
+  - first:
+      213: 179941307670790845
+    second: Snail-Rock_11
+  - first:
+      213: 8223633551993425277
+    second: Snail-Rock_12
+  - first:
+      213: -7176892477004393860
+    second: Snail-Rock_13
+  - first:
+      213: 3293049302471106078
+    second: Snail-Rock_14
+  - first:
+      213: -8226406406816237953
+    second: Snail-Rock_15
+  - first:
+      213: -5321617304776557204
+    second: Snail-Rock_16
+  - first:
+      213: 5829655387397906172
+    second: Snail-Rock_17
+  - first:
+      213: 6894923132280454134
+    second: Snail-Rock_18
+  - first:
+      213: 7060695205406002331
+    second: Snail-Rock_19
+  - first:
+      213: -5387904605955544501
+    second: Snail-Rock_20
+  - first:
+      213: -956135727294814172
+    second: Snail-Rock_21
+  - first:
+      213: -8661943909710067562
+    second: Snail-Rock_22
+  - first:
+      213: -5230930644753719308
+    second: Snail-Rock_23
+  - first:
+      213: -671062853530234661
+    second: Snail-Rock_24
+  - first:
+      213: -6866001677438343373
+    second: Snail-Rock_25
+  - first:
+      213: -7459460736541477563
+    second: Snail-Rock_26
+  - first:
+      213: -4504450271637660797
+    second: Snail-Rock_27
+  - first:
+      213: -8098899560622311597
+    second: Snail-Rock_28
+  - first:
+      213: 2605943966779125892
+    second: Snail-Rock_29
+  - first:
+      213: -4602064418394737566
+    second: Snail-Rock_30
+  - first:
+      213: 3332062352177749162
+    second: Snail-Rock_31
+  - first:
+      213: 436516980152284330
+    second: Snail-Rock_32
+  - first:
+      213: 3344190074543233053
+    second: Snail-Rock_33
+  - first:
+      213: -5972321323075003336
+    second: Snail-Rock_34
+  - first:
+      213: 5398160030156349935
+    second: Snail-Rock_35
+  - first:
+      213: -3315580850141793364
+    second: Snail-Rock_36
+  - first:
+      213: -4408049347558127657
+    second: Snail-Rock_37
+  - first:
+      213: 4614774885351753896
+    second: Snail-Rock_38
+  - first:
+      213: -1364723391338121482
+    second: Snail-Rock_39
+  - first:
+      213: 8213780216347705022
+    second: Snail-Rock_40
+  - first:
+      213: 5184166512255145708
+    second: Snail-Rock_41
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Snail-Rock_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 101
+        width: 20
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0959d3f971710fcd0800000000000000
+      internalID: -2526494000731548272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Rock_1
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 101
+        width: 20
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7a6cfd2df06f44e0800000000000000
+      internalID: -1995269469387330950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Rock_2
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 101
+        width: 20
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c21924e142f96e650800000000000000
+      internalID: 6261867309380571436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Rock_3
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 103
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d905558ad4171180800000000000000
+      internalID: -9144817589580133932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Rock_4
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 100
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c7a8253c1a0c64d0800000000000000
+      internalID: -3140123723916859452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Rock_5
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 95
+        width: 50
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90b075a6368e3d4f0800000000000000
+      internalID: -805044394685691127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Rock_6
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 103
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26120ae1decfe1b40800000000000000
+      internalID: 5413041897497174370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Rock_7
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 132
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a1b3b077ca5263a0800000000000000
+      internalID: -6673671885173837406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Rock_8
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 104
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b74943c0569f299c0800000000000000
+      internalID: -3921798113094495109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Rock_9
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 133
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61f491a1c984f9200800000000000000
+      internalID: 188949544662814486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Rock_10
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 106
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 317bf04f20fe92990800000000000000
+      internalID: -7410128915897796845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Rock_11
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 109
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db2032c7aa74f7200800000000000000
+      internalID: 179941307670790845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Rock_12
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 108
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7d4d851527302270800000000000000
+      internalID: 8223633551993425277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Rock_13
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 105
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c72daf4215e866c90800000000000000
+      internalID: -7176892477004393860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Rock_14
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 63
+        width: 40
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1e53ada4e243bd20800000000000000
+      internalID: 3293049302471106078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Rock_15
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 63
+        width: 40
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7678b755fee5dd80800000000000000
+      internalID: -8226406406816237953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Rock_16
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 63
+        width: 40
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6db836a141d526b0800000000000000
+      internalID: -5321617304776557204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Rock_17
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 63
+        width: 37
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfe5bc020b817e050800000000000000
+      internalID: 5829655387397906172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Rock_18
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 63
+        width: 31
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fb3335de00bfaf50800000000000000
+      internalID: 6894923132280454134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Rock_19
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 63
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9c478151e0acf160800000000000000
+      internalID: 7060695205406002331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Rock_20
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 60
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4a2456ae415a35b0800000000000000
+      internalID: -5387904605955544501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Rock_21
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 59
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42868813f9f1bb2f0800000000000000
+      internalID: -956135727294814172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Rock_22
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 63
+        width: 37
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6988f5538e79ac780800000000000000
+      internalID: -8661943909710067562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Rock_23
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 63
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ffdfb21b400867b0800000000000000
+      internalID: -5230930644753719308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Rock_24
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 63
+        width: 37
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd0de51e3e7efa6f0800000000000000
+      internalID: -671062853530234661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Rock_25
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 80
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3372d0d1adf07b0a0800000000000000
+      internalID: -6866001677438343373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Rock_26
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 63
+        width: 37
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 545b8766bfbaa7890800000000000000
+      internalID: -7459460736541477563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Rock_27
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 81
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38b10a2f75afc71c0800000000000000
+      internalID: -4504450271637660797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Rock_28
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 9
+        width: 20
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3573a8962cdea9f80800000000000000
+      internalID: -8098899560622311597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Rock_29
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 9
+        width: 20
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 480317c1b3c2a2420800000000000000
+      internalID: 2605943966779125892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Rock_30
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 9
+        width: 20
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 264fd145bce2220c0800000000000000
+      internalID: -4602064418394737566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Rock_31
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 10
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aacd1072e0ddd3e20800000000000000
+      internalID: 3332062352177749162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Rock_32
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 11
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa4376471e1de0600800000000000000
+      internalID: 436516980152284330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Rock_33
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 11
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d18598e8723f86e20800000000000000
+      internalID: 3344190074543233053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Rock_34
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 0
+        width: 50
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83c9f9d366d0e1da0800000000000000
+      internalID: -5972321323075003336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Rock_35
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 11
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe16e2e52fd1aea40800000000000000
+      internalID: 5398160030156349935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Rock_36
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 38
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca3f53398c0bcf1d0800000000000000
+      internalID: -3315580850141793364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Rock_37
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 10
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d7c766297673d2c0800000000000000
+      internalID: -4408049347558127657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Rock_38
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 39
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a809cfde49fa0040800000000000000
+      internalID: 4614774885351753896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Rock_39
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 14
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f6ff926e478f0de0800000000000000
+      internalID: -1364723391338121482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Rock_40
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 12
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebe398a96953df170800000000000000
+      internalID: 8213780216347705022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Rock_41
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 13
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce6917bd9fbd1f740800000000000000
+      internalID: 5184166512255145708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Snail-Rock_0: -2526494000731548272
+      Snail-Rock_1: -1995269469387330950
+      Snail-Rock_10: -7410128915897796845
+      Snail-Rock_11: 179941307670790845
+      Snail-Rock_12: 8223633551993425277
+      Snail-Rock_13: -7176892477004393860
+      Snail-Rock_14: 3293049302471106078
+      Snail-Rock_15: -8226406406816237953
+      Snail-Rock_16: -5321617304776557204
+      Snail-Rock_17: 5829655387397906172
+      Snail-Rock_18: 6894923132280454134
+      Snail-Rock_19: 7060695205406002331
+      Snail-Rock_2: 6261867309380571436
+      Snail-Rock_20: -5387904605955544501
+      Snail-Rock_21: -956135727294814172
+      Snail-Rock_22: -8661943909710067562
+      Snail-Rock_23: -5230930644753719308
+      Snail-Rock_24: -671062853530234661
+      Snail-Rock_25: -6866001677438343373
+      Snail-Rock_26: -7459460736541477563
+      Snail-Rock_27: -4504450271637660797
+      Snail-Rock_28: -8098899560622311597
+      Snail-Rock_29: 2605943966779125892
+      Snail-Rock_3: -9144817589580133932
+      Snail-Rock_30: -4602064418394737566
+      Snail-Rock_31: 3332062352177749162
+      Snail-Rock_32: 436516980152284330
+      Snail-Rock_33: 3344190074543233053
+      Snail-Rock_34: -5972321323075003336
+      Snail-Rock_35: 5398160030156349935
+      Snail-Rock_36: -3315580850141793364
+      Snail-Rock_37: -4408049347558127657
+      Snail-Rock_38: 4614774885351753896
+      Snail-Rock_39: -1364723391338121482
+      Snail-Rock_4: -3140123723916859452
+      Snail-Rock_40: 8213780216347705022
+      Snail-Rock_41: 5184166512255145708
+      Snail-Rock_5: -805044394685691127
+      Snail-Rock_6: 5413041897497174370
+      Snail-Rock_7: -6673671885173837406
+      Snail-Rock_8: -3921798113094495109
+      Snail-Rock_9: 188949544662814486
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1235 @@
+fileFormatVersion: 2
+guid: 13136b76fff617c4393379be1c91c851
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6192369756773906582
+    second: Snail-Coral_0
+  - first:
+      213: 355134234886344309
+    second: Snail-Coral_1
+  - first:
+      213: 1487757106234534402
+    second: Snail-Coral_2
+  - first:
+      213: -6842648342540102279
+    second: Snail-Coral_3
+  - first:
+      213: 8385638351151071453
+    second: Snail-Coral_4
+  - first:
+      213: -6267336293290646764
+    second: Snail-Coral_5
+  - first:
+      213: -5398941329840955960
+    second: Snail-Coral_6
+  - first:
+      213: 7174549612569246752
+    second: Snail-Coral_7
+  - first:
+      213: -6460744012651117347
+    second: Snail-Coral_8
+  - first:
+      213: 6086102757598752062
+    second: Snail-Coral_9
+  - first:
+      213: -919342379406668297
+    second: Snail-Coral_10
+  - first:
+      213: 4410361513464209071
+    second: Snail-Coral_11
+  - first:
+      213: 1218548157905693421
+    second: Snail-Coral_12
+  - first:
+      213: -7273121847520247349
+    second: Snail-Coral_13
+  - first:
+      213: -1030243959127860706
+    second: Snail-Coral_14
+  - first:
+      213: 4542674254006722651
+    second: Snail-Coral_15
+  - first:
+      213: -3655717616304252500
+    second: Snail-Coral_16
+  - first:
+      213: -9006549401692163361
+    second: Snail-Coral_17
+  - first:
+      213: 8203376424364958867
+    second: Snail-Coral_18
+  - first:
+      213: 351191993711624645
+    second: Snail-Coral_19
+  - first:
+      213: 2007952726531455912
+    second: Snail-Coral_20
+  - first:
+      213: 1602241912244456493
+    second: Snail-Coral_21
+  - first:
+      213: -5792442829864864223
+    second: Snail-Coral_22
+  - first:
+      213: 6524496301950808834
+    second: Snail-Coral_23
+  - first:
+      213: 5086967363405162490
+    second: Snail-Coral_24
+  - first:
+      213: 8977262817373154851
+    second: Snail-Coral_25
+  - first:
+      213: -6548727831151988401
+    second: Snail-Coral_26
+  - first:
+      213: -4744963377913366617
+    second: Snail-Coral_27
+  - first:
+      213: -4303937834991282857
+    second: Snail-Coral_28
+  - first:
+      213: -1352080745064925292
+    second: Snail-Coral_29
+  - first:
+      213: -7354975766439568976
+    second: Snail-Coral_30
+  - first:
+      213: -2170443265076490548
+    second: Snail-Coral_31
+  - first:
+      213: 766646755103808471
+    second: Snail-Coral_32
+  - first:
+      213: 5662069203149168547
+    second: Snail-Coral_33
+  - first:
+      213: 6098490903107819260
+    second: Snail-Coral_34
+  - first:
+      213: 2271501308161451407
+    second: Snail-Coral_35
+  - first:
+      213: -3116405257489606270
+    second: Snail-Coral_36
+  - first:
+      213: -8022080665332100661
+    second: Snail-Coral_37
+  - first:
+      213: 2676858086962527888
+    second: Snail-Coral_38
+  - first:
+      213: -6471396432468948171
+    second: Snail-Coral_39
+  - first:
+      213: 4846332515929396378
+    second: Snail-Coral_40
+  - first:
+      213: -4188152283361074083
+    second: Snail-Coral_41
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Snail-Coral_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 101
+        width: 20
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a678e99c388401aa0800000000000000
+      internalID: -6192369756773906582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Coral_1
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 101
+        width: 20
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57e0bfd74b0bde400800000000000000
+      internalID: 355134234886344309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Coral_2
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 101
+        width: 20
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20a2c25a43395a410800000000000000
+      internalID: 1487757106234534402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Coral_3
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 103
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9755bfb16970a01a0800000000000000
+      internalID: -6842648342540102279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Coral_4
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 106
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd0804fb6a5cf5470800000000000000
+      internalID: 8385638351151071453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Coral_5
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 100
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4136f76d8d2f509a0800000000000000
+      internalID: -6267336293290646764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Coral_6
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 95
+        width: 50
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cd97af177b1315b0800000000000000
+      internalID: -5398941329840955960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Coral_7
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 103
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02c3b983cde119360800000000000000
+      internalID: 7174549612569246752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Coral_8
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 132
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd4c23d0d83d656a0800000000000000
+      internalID: -6460744012651117347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Coral_9
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 104
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3de235663e267450800000000000000
+      internalID: 6086102757598752062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Coral_10
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 133
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fdc0801af6dd33f0800000000000000
+      internalID: -919342379406668297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Coral_11
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 109
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fae961ded60c43d30800000000000000
+      internalID: 4410361513464209071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Coral_12
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 108
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: deaecade71729e010800000000000000
+      internalID: 1218548157905693421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Coral_13
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 105
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc14c6ed63ea01b90800000000000000
+      internalID: -7273121847520247349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Coral_14
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 63
+        width: 40
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1a1130e396d3b1f0800000000000000
+      internalID: -1030243959127860706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Coral_15
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 63
+        width: 40
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5022687a22da0f30800000000000000
+      internalID: 4542674254006722651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Coral_16
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 63
+        width: 40
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca91c016238444dc0800000000000000
+      internalID: -3655717616304252500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Coral_17
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 63
+        width: 37
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd2b124b90f420380800000000000000
+      internalID: -9006549401692163361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Coral_18
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 63
+        width: 31
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3946615056f38d170800000000000000
+      internalID: 8203376424364958867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Coral_19
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 63
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c18421f14fafd400800000000000000
+      internalID: 351191993711624645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Coral_20
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 60
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ab3faebd5eaddb10800000000000000
+      internalID: 2007952726531455912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Coral_21
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 59
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2cc297b78e4c3610800000000000000
+      internalID: 1602241912244456493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Coral_22
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 63
+        width: 37
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12675289feb1d9fa0800000000000000
+      internalID: -5792442829864864223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Coral_23
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 62
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 203b02081daab8a50800000000000000
+      internalID: 6524496301950808834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Coral_24
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 63
+        width: 37
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af725c77dd9889640800000000000000
+      internalID: 5086967363405162490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Coral_25
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 80
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32e69d408f4a59c70800000000000000
+      internalID: 8977262817373154851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Coral_26
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 63
+        width: 37
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f41b875fbbe3e15a0800000000000000
+      internalID: -6548727831151988401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Coral_27
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 81
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a77c3b92f0862eb0800000000000000
+      internalID: -4744963377913366617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Coral_28
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 9
+        width: 20
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7551bf1a7575544c0800000000000000
+      internalID: -4303937834991282857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Coral_29
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 9
+        width: 20
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49772cad9b17c3de0800000000000000
+      internalID: -1352080745064925292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Coral_30
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 9
+        width: 20
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b953cd3280ede990800000000000000
+      internalID: -7354975766439568976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Coral_31
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 9
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cce0af3995901e1e0800000000000000
+      internalID: -2170443265076490548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Coral_32
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 11
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7db1b22792da3aa00800000000000000
+      internalID: 766646755103808471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Coral_33
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 10
+        width: 20
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3af926bf0f5b39e40800000000000000
+      internalID: 5662069203149168547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Coral_34
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 0
+        width: 50
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf651b94a2132a450800000000000000
+      internalID: 6098490903107819260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Coral_35
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 11
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f856cc3a76ef58f10800000000000000
+      internalID: 2271501308161451407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Coral_36
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 38
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2891c230eed40c4d0800000000000000
+      internalID: -3116405257489606270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Coral_37
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 10
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc1d95f3328dba090800000000000000
+      internalID: -8022080665332100661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Coral_38
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 39
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09e788b5f3c162520800000000000000
+      internalID: 2676858086962527888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Coral_39
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 14
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53b45f94b3bf036a0800000000000000
+      internalID: -6471396432468948171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Coral_40
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 12
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a94956b0fb1a14340800000000000000
+      internalID: 4846332515929396378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Coral_41
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 13
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d54a50520b1b0e5c0800000000000000
+      internalID: -4188152283361074083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Snail-Coral_0: -6192369756773906582
+      Snail-Coral_1: 355134234886344309
+      Snail-Coral_10: -919342379406668297
+      Snail-Coral_11: 4410361513464209071
+      Snail-Coral_12: 1218548157905693421
+      Snail-Coral_13: -7273121847520247349
+      Snail-Coral_14: -1030243959127860706
+      Snail-Coral_15: 4542674254006722651
+      Snail-Coral_16: -3655717616304252500
+      Snail-Coral_17: -9006549401692163361
+      Snail-Coral_18: 8203376424364958867
+      Snail-Coral_19: 351191993711624645
+      Snail-Coral_2: 1487757106234534402
+      Snail-Coral_20: 2007952726531455912
+      Snail-Coral_21: 1602241912244456493
+      Snail-Coral_22: -5792442829864864223
+      Snail-Coral_23: 6524496301950808834
+      Snail-Coral_24: 5086967363405162490
+      Snail-Coral_25: 8977262817373154851
+      Snail-Coral_26: -6548727831151988401
+      Snail-Coral_27: -4744963377913366617
+      Snail-Coral_28: -4303937834991282857
+      Snail-Coral_29: -1352080745064925292
+      Snail-Coral_3: -6842648342540102279
+      Snail-Coral_30: -7354975766439568976
+      Snail-Coral_31: -2170443265076490548
+      Snail-Coral_32: 766646755103808471
+      Snail-Coral_33: 5662069203149168547
+      Snail-Coral_34: 6098490903107819260
+      Snail-Coral_35: 2271501308161451407
+      Snail-Coral_36: -3116405257489606270
+      Snail-Coral_37: -8022080665332100661
+      Snail-Coral_38: 2676858086962527888
+      Snail-Coral_39: -6471396432468948171
+      Snail-Coral_4: 8385638351151071453
+      Snail-Coral_40: 4846332515929396378
+      Snail-Coral_41: -4188152283361074083
+      Snail-Coral_5: -6267336293290646764
+      Snail-Coral_6: -5398941329840955960
+      Snail-Coral_7: 7174549612569246752
+      Snail-Coral_8: -6460744012651117347
+      Snail-Coral_9: 6086102757598752062
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

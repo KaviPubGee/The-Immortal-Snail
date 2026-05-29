@@ -47,10 +47,11 @@ public class DialogueManager : MonoBehaviour
         get{return dialogueActive;}
     }
 
-    private bool playedFirstSaltDialogue = false;
-    private bool playedFirstSaltDialogueAfterCollecting = false;
-    private bool playedFirstDialogueAfterCollectingFive = false;
-    private bool playedFirstDialogueAfterCursedSalt = false;
+    private static bool playedFirstSaltDialogue = false;
+    private static bool playedFirstSaltDialogueAfterCollecting = false;
+    private static bool playedFirstDialogueAfterCollectingFive = false;
+    private static bool playedFirstDialogueAfterCursedSalt = false;
+    private static bool playedIntroDialogue = false;
 
     void Start()
     {
@@ -120,8 +121,22 @@ public class DialogueManager : MonoBehaviour
         }
     }
 
+    public static void ResetDialogueFlags()
+    {
+        playedIntroDialogue = false;
+        playedFirstSaltDialogue = false;
+        playedFirstSaltDialogueAfterCollecting = false;
+        playedFirstDialogueAfterCollectingFive = false;
+        playedFirstDialogueAfterCursedSalt = false;
+    }
+
     IEnumerator StartIntroAfterDelay()
     {
+        if (playedIntroDialogue)
+            yield break;
+
+        playedIntroDialogue = true;
+
         Time.timeScale = 0f;
         playerFollowMouse.enabled = false;
 

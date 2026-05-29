@@ -2012,8 +2012,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -684, y: 107}
-  m_SizeDelta: {x: 874.5104, y: 830.6661}
+  m_AnchoredPosition: {x: -668.54, y: 111.93}
+  m_SizeDelta: {x: 587.9579, y: 558.48}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1126916769
 MonoBehaviour:
@@ -2035,7 +2035,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 2800000, guid: c399f106e1a5436409bf2acbb09da72d, type: 3}
+  m_Texture: {fileID: 2800000, guid: 505b21014ca12bc40b1b8223d35d3c08, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -2240,7 +2240,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 2.407898, y: -376.04047}
+  m_AnchoredPosition: {x: 2.407959, y: -376.04053}
   m_SizeDelta: {x: 15.3365, y: -736.9669}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1399273115
@@ -2998,7 +2998,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 6
-  m_Sprite: {fileID: -5042306123914042773, guid: 4dd7d7c4717854e46b972e3b173388ac, type: 3}
+  m_Sprite: {fileID: -3677314374292442494, guid: fa950a355e1a50a459dabc9249f6cb57, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 1
   m_FlipY: 0
@@ -3018,8 +3018,8 @@ Transform:
   m_GameObject: {fileID: 2011141293}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.62, y: 3.46, z: 0}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_LocalPosition: {x: -7.283, y: 3.144, z: 0}
+  m_LocalScale: {x: 3.0296, y: 3.0296, z: 3.0296}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
@@ -3058,8 +3058,8 @@ CircleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.02, y: -0.23}
-  m_Radius: 0.8
+  m_Offset: {x: -0.01, y: -0.01}
+  m_Radius: 0.14
 --- !u!95 &2011141298
 Animator:
   serializedVersion: 7
@@ -3070,7 +3070,7 @@ Animator:
   m_GameObject: {fileID: 2011141293}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 2afee54553b18c64498ba00fec393309, type: 2}
+  m_Controller: {fileID: 9100000, guid: 1199c567dc47fff4e8bb7c752630be88, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
