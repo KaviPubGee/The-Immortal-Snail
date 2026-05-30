@@ -107,6 +107,8 @@ public class CurseManager : MonoBehaviour
         yield return new WaitForSeconds(invertMouseTime);
 
         playerMovement.isInverted = false;
+        
+        playerMovement.SyncWithRealMouse();
 
         Debug.Log("Mouse normal again");
     }

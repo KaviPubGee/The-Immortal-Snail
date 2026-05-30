@@ -140,7 +140,7 @@ public class DialogueManager : MonoBehaviour
         Time.timeScale = 0f;
         playerFollowMouse.enabled = false;
 
-        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.lockState = CursorLockMode.Confined;
         Cursor.visible = false;
 
         yield return new WaitForSecondsRealtime(3f);
@@ -162,7 +162,7 @@ public class DialogueManager : MonoBehaviour
         Time.timeScale = 0f;
         playerFollowMouse.enabled = false;
 
-        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.lockState = CursorLockMode.Confined;
         Cursor.visible = false;
 
         dialogueCanvas.SetActive(true);

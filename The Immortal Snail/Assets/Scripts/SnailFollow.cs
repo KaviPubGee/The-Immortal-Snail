@@ -14,6 +14,16 @@ public class SnailFollow : MonoBehaviour
     private bool lastFlipX = false;
     private string currentAnimation = "";
 
+    private enum SnailDirection
+    {
+        Right,
+        Left,
+        Up,
+        Down
+    }
+
+    private SnailDirection lastDirection = SnailDirection.Right;
+
     void Start()
     {
         animator = GetComponent<Animator>();
@@ -48,20 +58,24 @@ public class SnailFollow : MonoBehaviour
                 {
                     spriteRenderer.flipX = false;
                     lastFlipX = false;
+                    lastDirection = SnailDirection.Right;
                 }
                 else
                 {
                     spriteRenderer.flipX = true;
                     lastFlipX = true;
+                    lastDirection = SnailDirection.Left;
                 }
             }
             else if (direction.y > 0)
             {
                 PlayAnimation("Snail_Crawl_Up");
+                lastDirection = SnailDirection.Up;
             }
             else if (direction.y < 0)
             {
                 PlayAnimation("Snail_Crawl_Down");
+                lastDirection = SnailDirection.Down;
             }
         }
     }
@@ -86,8 +100,8 @@ public class SnailFollow : MonoBehaviour
     {
         isPlayingSpecialAnimation = true;
 
-        spriteRenderer.flipX = lastFlipX;
-        PlayAnimation("Snail_Hide");
+        ApplyFlipForSpecialAnimation();
+        PlayAnimation(GetHideAnimation());
 
         yield return new WaitForSeconds(0.5f);
 
@@ -97,12 +111,58 @@ public class SnailFollow : MonoBehaviour
 
         isFrozen = false;
 
-        spriteRenderer.flipX = lastFlipX;
-        PlayAnimation("Snail_Appear");
+        ApplyFlipForSpecialAnimation();
+        PlayAnimation(GetAppearAnimation());
 
         yield return new WaitForSeconds(0.5f);
 
         isPlayingSpecialAnimation = false;
         currentAnimation = "";
+    }
+
+    string GetHideAnimation()
+    {
+        switch (lastDirection)
+        {
+            case SnailDirection.Up:
+                return "Snail_Hide_Up";
+
+            case SnailDirection.Down:
+                return "Snail_Hide_Down";
+
+            case SnailDirection.Left:
+            case SnailDirection.Right:
+            default:
+                return "Snail_Hide";
+        }
+    }
+
+    string GetAppearAnimation()
+    {
+        switch (lastDirection)
+        {
+            case SnailDirection.Up:
+                return "Snail_Appear_Up";
+
+            case SnailDirection.Down:
+                return "Snail_Appear_Down";
+
+            case SnailDirection.Left:
+            case SnailDirection.Right:
+            default:
+                return "Snail_Appear";
+        }
+    }
+
+    void ApplyFlipForSpecialAnimation()
+    {
+        if (lastDirection == SnailDirection.Left)
+        {
+            spriteRenderer.flipX = true;
+        }
+        else
+        {
+            spriteRenderer.flipX = false;
+        }
     }
 }

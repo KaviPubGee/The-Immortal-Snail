@@ -1,0 +1,1235 @@
+fileFormatVersion: 2
+guid: 980335bfbd5396f4eb623f7fc0987196
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2816187222655118191
+    second: Snail-Shell_Clear_0
+  - first:
+      213: -5698071977511979352
+    second: Snail-Shell_Clear_1
+  - first:
+      213: 2890011894890059913
+    second: Snail-Shell_Clear_2
+  - first:
+      213: -59283575233806095
+    second: Snail-Shell_Clear_3
+  - first:
+      213: 7084699600873453960
+    second: Snail-Shell_Clear_4
+  - first:
+      213: -6157409574092384610
+    second: Snail-Shell_Clear_5
+  - first:
+      213: -2707274750644875919
+    second: Snail-Shell_Clear_6
+  - first:
+      213: -8356484259917225906
+    second: Snail-Shell_Clear_7
+  - first:
+      213: 2350094007746934151
+    second: Snail-Shell_Clear_8
+  - first:
+      213: 6271833794008405407
+    second: Snail-Shell_Clear_9
+  - first:
+      213: 8915928739763653409
+    second: Snail-Shell_Clear_10
+  - first:
+      213: -8383488745989803326
+    second: Snail-Shell_Clear_11
+  - first:
+      213: -6000213786385284611
+    second: Snail-Shell_Clear_12
+  - first:
+      213: -5244199544841378140
+    second: Snail-Shell_Clear_13
+  - first:
+      213: -7647732598880631801
+    second: Snail-Shell_Clear_14
+  - first:
+      213: 3233148183967041974
+    second: Snail-Shell_Clear_15
+  - first:
+      213: -8589784182608441684
+    second: Snail-Shell_Clear_16
+  - first:
+      213: 777899551231773580
+    second: Snail-Shell_Clear_17
+  - first:
+      213: 2670825842709541920
+    second: Snail-Shell_Clear_18
+  - first:
+      213: 540845869144170351
+    second: Snail-Shell_Clear_19
+  - first:
+      213: 4165742302251288894
+    second: Snail-Shell_Clear_20
+  - first:
+      213: -5027151475222445935
+    second: Snail-Shell_Clear_21
+  - first:
+      213: -1093826503808294681
+    second: Snail-Shell_Clear_22
+  - first:
+      213: 7185532525793747701
+    second: Snail-Shell_Clear_23
+  - first:
+      213: -3073962062972127563
+    second: Snail-Shell_Clear_24
+  - first:
+      213: 2854444188921314189
+    second: Snail-Shell_Clear_25
+  - first:
+      213: 7381963182986952420
+    second: Snail-Shell_Clear_26
+  - first:
+      213: -1699150588157858037
+    second: Snail-Shell_Clear_27
+  - first:
+      213: -5213672359258599904
+    second: Snail-Shell_Clear_28
+  - first:
+      213: -7484926376349447411
+    second: Snail-Shell_Clear_29
+  - first:
+      213: 2932226927669755679
+    second: Snail-Shell_Clear_30
+  - first:
+      213: -7267163664355203033
+    second: Snail-Shell_Clear_31
+  - first:
+      213: 707346806413452323
+    second: Snail-Shell_Clear_32
+  - first:
+      213: -5262232863635617672
+    second: Snail-Shell_Clear_33
+  - first:
+      213: -256285624963178400
+    second: Snail-Shell_Clear_34
+  - first:
+      213: -6439323574947795378
+    second: Snail-Shell_Clear_35
+  - first:
+      213: -2829041038065770453
+    second: Snail-Shell_Clear_36
+  - first:
+      213: 8892201392267680256
+    second: Snail-Shell_Clear_37
+  - first:
+      213: 3621748563893884484
+    second: Snail-Shell_Clear_38
+  - first:
+      213: 157462558175310843
+    second: Snail-Shell_Clear_39
+  - first:
+      213: 6636003456393531331
+    second: Snail-Shell_Clear_40
+  - first:
+      213: -3950280534801375739
+    second: Snail-Shell_Clear_41
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Snail-Shell_Clear_0
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 1019
+        width: 162
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 194d5ac44a4eae8d0800000000000000
+      internalID: -2816187222655118191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Shell_Clear_1
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 1019
+        width: 162
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a67ac3e9b16ce0b0800000000000000
+      internalID: -5698071977511979352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Shell_Clear_2
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 1019
+        width: 162
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9885397a1826b1820800000000000000
+      internalID: 2890011894890059913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Shell_Clear_3
+      rect:
+        serializedVersion: 2
+        x: 4319
+        y: 959
+        width: 482
+        height: 481
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f08c2507e16d2ff0800000000000000
+      internalID: -59283575233806095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Shell_Clear_4
+      rect:
+        serializedVersion: 2
+        x: 5019
+        y: 1329
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 889f96a20c8e15260800000000000000
+      internalID: 7084699600873453960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Shell_Clear_5
+      rect:
+        serializedVersion: 2
+        x: 5499
+        y: 1339
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9652af9d9c7c8aa0800000000000000
+      internalID: -6157409574092384610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Shell_Clear_6
+      rect:
+        serializedVersion: 2
+        x: 1589
+        y: 1039
+        width: 182
+        height: 292
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17d8d6245f3dd6ad0800000000000000
+      internalID: -2707274750644875919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Shell_Clear_7
+      rect:
+        serializedVersion: 2
+        x: 2079
+        y: 1069
+        width: 162
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e40ad7417ddc70c80800000000000000
+      internalID: -8356484259917225906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Shell_Clear_8
+      rect:
+        serializedVersion: 2
+        x: 2559
+        y: 1099
+        width: 162
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 785b7887c063d9020800000000000000
+      internalID: 2350094007746934151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Shell_Clear_9
+      rect:
+        serializedVersion: 2
+        x: 3019
+        y: 1089
+        width: 202
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9559262b970a0750800000000000000
+      internalID: 6271833794008405407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Shell_Clear_10
+      rect:
+        serializedVersion: 2
+        x: 3509
+        y: 1059
+        width: 182
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12b0f4043fdbbbb70800000000000000
+      internalID: 8915928739763653409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Shell_Clear_11
+      rect:
+        serializedVersion: 2
+        x: 3989
+        y: 1009
+        width: 182
+        height: 312
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c2fac4376dd7ab80800000000000000
+      internalID: -8383488745989803326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Shell_Clear_12
+      rect:
+        serializedVersion: 2
+        x: 4959
+        y: 1039
+        width: 162
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df18a1e0a55fabca0800000000000000
+      internalID: -6000213786385284611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Shell_Clear_13
+      rect:
+        serializedVersion: 2
+        x: 5439
+        y: 1049
+        width: 162
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a6e6768c4cd837b0800000000000000
+      internalID: -5244199544841378140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Shell_Clear_14
+      rect:
+        serializedVersion: 2
+        x: 3009
+        y: 609
+        width: 222
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7048b8288bbcdd590800000000000000
+      internalID: -7647732598880631801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Shell_Clear_15
+      rect:
+        serializedVersion: 2
+        x: 5119
+        y: 809
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b90e83b4237edc20800000000000000
+      internalID: 3233148183967041974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Shell_Clear_16
+      rect:
+        serializedVersion: 2
+        x: 5599
+        y: 819
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caeca5aebc4fac880800000000000000
+      internalID: -8589784182608441684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Shell_Clear_17
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 639
+        width: 382
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8b0b163587abca00800000000000000
+      internalID: 777899551231773580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Shell_Clear_18
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 639
+        width: 382
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 024b2ab04fda01520800000000000000
+      internalID: 2670825842709541920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Shell_Clear_19
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 639
+        width: 382
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6f5394d378718700800000000000000
+      internalID: 540845869144170351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Shell_Clear_20
+      rect:
+        serializedVersion: 2
+        x: 1519
+        y: 639
+        width: 342
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3981878d80bfc930800000000000000
+      internalID: 4165742302251288894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Shell_Clear_21
+      rect:
+        serializedVersion: 2
+        x: 2019
+        y: 639
+        width: 292
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19009474e58fb3ab0800000000000000
+      internalID: -5027151475222445935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Shell_Clear_22
+      rect:
+        serializedVersion: 2
+        x: 2539
+        y: 639
+        width: 212
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e069921792f1d0f0800000000000000
+      internalID: -1093826503808294681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Shell_Clear_23
+      rect:
+        serializedVersion: 2
+        x: 3499
+        y: 599
+        width: 242
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f2a3f9f2c328b360800000000000000
+      internalID: 7185532525793747701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Shell_Clear_24
+      rect:
+        serializedVersion: 2
+        x: 3919
+        y: 639
+        width: 342
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b6f48f4ac71755d0800000000000000
+      internalID: -3073962062972127563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Shell_Clear_25
+      rect:
+        serializedVersion: 2
+        x: 4449
+        y: 639
+        width: 202
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8b35d7cdd50d9720800000000000000
+      internalID: 2854444188921314189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Shell_Clear_26
+      rect:
+        serializedVersion: 2
+        x: 4879
+        y: 639
+        width: 352
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4eef2f25760027660800000000000000
+      internalID: 7381963182986952420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Shell_Clear_27
+      rect:
+        serializedVersion: 2
+        x: 5359
+        y: 639
+        width: 352
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0f64f4ea876b68e0800000000000000
+      internalID: -1699150588157858037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Shell_Clear_28
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 99
+        width: 162
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02e4e1bcc9055a7b0800000000000000
+      internalID: -5213672359258599904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Shell_Clear_29
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 99
+        width: 162
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0b4db71e13302890800000000000000
+      internalID: -7484926376349447411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Shell_Clear_30
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 99
+        width: 162
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1f3798eadc51b820800000000000000
+      internalID: 2932226927669755679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Shell_Clear_31
+      rect:
+        serializedVersion: 2
+        x: 1589
+        y: 109
+        width: 182
+        height: 292
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7286b7d7629d52b90800000000000000
+      internalID: -7267163664355203033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Shell_Clear_32
+      rect:
+        serializedVersion: 2
+        x: 3989
+        y: 119
+        width: 182
+        height: 312
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 324e7493c2001d900800000000000000
+      internalID: 707346806413452323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Shell_Clear_33
+      rect:
+        serializedVersion: 2
+        x: 4319
+        y: 0
+        width: 482
+        height: 481
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 878cc9d471bc8f6b0800000000000000
+      internalID: -5262232863635617672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Shell_Clear_34
+      rect:
+        serializedVersion: 2
+        x: 4959
+        y: 119
+        width: 162
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 060e70bf49d717cf0800000000000000
+      internalID: -256285624963178400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Shell_Clear_35
+      rect:
+        serializedVersion: 2
+        x: 5009
+        y: 389
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4e2079535de2a6a0800000000000000
+      internalID: -6439323574947795378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Shell_Clear_36
+      rect:
+        serializedVersion: 2
+        x: 5439
+        y: 109
+        width: 162
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b20661f2a2a3db8d0800000000000000
+      internalID: -2829041038065770453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Shell_Clear_37
+      rect:
+        serializedVersion: 2
+        x: 5489
+        y: 399
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00a5959ad02776b70800000000000000
+      internalID: 8892201392267680256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Shell_Clear_38
+      rect:
+        serializedVersion: 2
+        x: 2079
+        y: 129
+        width: 162
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4461da84129034230800000000000000
+      internalID: 3621748563893884484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Shell_Clear_39
+      rect:
+        serializedVersion: 2
+        x: 2559
+        y: 149
+        width: 162
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf3b675cc5b6f2200800000000000000
+      internalID: 157462558175310843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Shell_Clear_40
+      rect:
+        serializedVersion: 2
+        x: 3029
+        y: 129
+        width: 182
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cfc99a0cf1d71c50800000000000000
+      internalID: 6636003456393531331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail-Shell_Clear_41
+      rect:
+        serializedVersion: 2
+        x: 3499
+        y: 139
+        width: 202
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50e160878c8cd29c0800000000000000
+      internalID: -3950280534801375739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Snail-Shell_Clear_0: -2816187222655118191
+      Snail-Shell_Clear_1: -5698071977511979352
+      Snail-Shell_Clear_10: 8915928739763653409
+      Snail-Shell_Clear_11: -8383488745989803326
+      Snail-Shell_Clear_12: -6000213786385284611
+      Snail-Shell_Clear_13: -5244199544841378140
+      Snail-Shell_Clear_14: -7647732598880631801
+      Snail-Shell_Clear_15: 3233148183967041974
+      Snail-Shell_Clear_16: -8589784182608441684
+      Snail-Shell_Clear_17: 777899551231773580
+      Snail-Shell_Clear_18: 2670825842709541920
+      Snail-Shell_Clear_19: 540845869144170351
+      Snail-Shell_Clear_2: 2890011894890059913
+      Snail-Shell_Clear_20: 4165742302251288894
+      Snail-Shell_Clear_21: -5027151475222445935
+      Snail-Shell_Clear_22: -1093826503808294681
+      Snail-Shell_Clear_23: 7185532525793747701
+      Snail-Shell_Clear_24: -3073962062972127563
+      Snail-Shell_Clear_25: 2854444188921314189
+      Snail-Shell_Clear_26: 7381963182986952420
+      Snail-Shell_Clear_27: -1699150588157858037
+      Snail-Shell_Clear_28: -5213672359258599904
+      Snail-Shell_Clear_29: -7484926376349447411
+      Snail-Shell_Clear_3: -59283575233806095
+      Snail-Shell_Clear_30: 2932226927669755679
+      Snail-Shell_Clear_31: -7267163664355203033
+      Snail-Shell_Clear_32: 707346806413452323
+      Snail-Shell_Clear_33: -5262232863635617672
+      Snail-Shell_Clear_34: -256285624963178400
+      Snail-Shell_Clear_35: -6439323574947795378
+      Snail-Shell_Clear_36: -2829041038065770453
+      Snail-Shell_Clear_37: 8892201392267680256
+      Snail-Shell_Clear_38: 3621748563893884484
+      Snail-Shell_Clear_39: 157462558175310843
+      Snail-Shell_Clear_4: 7084699600873453960
+      Snail-Shell_Clear_40: 6636003456393531331
+      Snail-Shell_Clear_41: -3950280534801375739
+      Snail-Shell_Clear_5: -6157409574092384610
+      Snail-Shell_Clear_6: -2707274750644875919
+      Snail-Shell_Clear_7: -8356484259917225906
+      Snail-Shell_Clear_8: 2350094007746934151
+      Snail-Shell_Clear_9: 6271833794008405407
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

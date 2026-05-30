@@ -74,4 +74,16 @@ public class PlayerFollowMouse : MonoBehaviour
             spriteRenderer.sprite = openHandSprite;
         }
     }
+
+    public void SyncWithRealMouse()
+    {
+        Vector3 mouseWorldPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        mouseWorldPos.z = 0f;
+
+        mouseWorldPos.x = Mathf.Clamp(mouseWorldPos.x, minX, maxX);
+        mouseWorldPos.y = Mathf.Clamp(mouseWorldPos.y, minY, maxY);
+
+        transform.position = mouseWorldPos;
+        lastMouseWorldPos = mouseWorldPos;
+    }
 }       

@@ -77,7 +77,7 @@ public class PauseMenu : MonoBehaviour
             if (typeWriter != null) typeWriter.Resume();
 
             Cursor.visible = false;
-            Cursor.lockState = CursorLockMode.Locked;
+            Cursor.lockState = CursorLockMode.Confined;
 
             return;
         }
@@ -85,13 +85,14 @@ public class PauseMenu : MonoBehaviour
         // Only resume normally if no dialogue is active.
         Time.timeScale = 1f;
 
-        if (playerFollowMouse != null)
-        {
-            playerFollowMouse.isFrozen = false;
-        }
-
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Confined;
+
+        if (playerFollowMouse != null)
+        {
+            playerFollowMouse.SyncWithRealMouse();
+            playerFollowMouse.isFrozen = false;
+        }
     }
 
     public void GoToMainMenu()

@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: e6d7b21b7b44c964ea18fb7cfbc1b2ac
+guid: e2d4382e3d5596c4cae907130b86e50d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1151890928623397249
-    second: Walls 1_0
+      213: 7104771858813567130
+    second: Snail Idletest 1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Walls 1_0
+      name: Snail Idletest 1_0
       rect:
         serializedVersion: 2
-        x: 49
-        y: 49
-        width: 6562
-        height: 3652
+        x: 309
+        y: 109
+        width: 712
+        height: 1002
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f76586bad49a300f0800000000000000
-      internalID: -1151890928623397249
+      spriteID: a9046c6ec58399260800000000000000
+      internalID: 7104771858813567130
       vertices: []
       indices: 
       edges: []
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Walls 1_0: -1151890928623397249
+      Snail Idletest 1_0: 7104771858813567130
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

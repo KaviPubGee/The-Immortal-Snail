@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 505b21014ca12bc40b1b8223d35d3c08
+guid: 26a143288da532849a209585afb7bb3a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4895082254757558163
-    second: Snail_Idle1_0
+      213: 829190210257508226
+    second: Snail_Angry_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Snail_Idle1_0
+      name: Snail_Angry_0
       rect:
         serializedVersion: 2
-        x: 71
-        y: 0
-        width: 366
-        height: 489
+        x: 159
+        y: 109
+        width: 692
+        height: 1002
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d688bd2ef9c211cb0800000000000000
-      internalID: -4895082254757558163
+      spriteID: 28751ad5a10e18b00800000000000000
+      internalID: 829190210257508226
       vertices: []
       indices: 
       edges: []
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Snail_Idle1_0: -4895082254757558163
+      Snail_Angry_0: 829190210257508226
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

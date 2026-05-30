@@ -2,6 +2,11 @@ using UnityEngine;
 
 public class PlayerCollision : MonoBehaviour
 {
+    public int maxHealth = 50;
+    public int currentHealth;
+
+    public HealthBar healthBar;
+
     public SnailFollow snail;
     public SaltSpawner spawner;
     public CurseManager curseManager;
@@ -14,6 +19,13 @@ public class PlayerCollision : MonoBehaviour
     
     public int saltCollected = 0;
 
+
+    void Start()
+    {
+        currentHealth = maxHealth;
+        healthBar.SetMaxHealth(maxHealth);
+    }
+
     void Update()
     {
         if (isHoveringSalt && Input.GetMouseButtonDown(0))
@@ -24,11 +36,14 @@ public class PlayerCollision : MonoBehaviour
 
                 saltCollected++;
 
+                TakeDamage(3);
+
                 snail.FreezeSnail(2f);
 
                 spawner.AddSaltCollected();
 
                 Destroy(currentSalt);
+
             }
             else if (currentSalt.CompareTag("SnailSalt"))
             {
@@ -39,6 +54,8 @@ public class PlayerCollision : MonoBehaviour
                 pickedUpCursedSaltFirstTime = true;
 
                 curseManager.TriggerRandomCurse();
+
+                GetHeal(5);
 
                 Destroy(currentSalt);
             }
@@ -71,5 +88,17 @@ public class PlayerCollision : MonoBehaviour
             isHoveringSalt = false;
             currentSalt = null;
         }
+    }
+
+    void TakeDamage(int damage)
+    {
+        currentHealth -= damage;
+        healthBar.SetHealth(currentHealth);
+    }
+
+    void GetHeal(int health)
+    {
+        currentHealth += health;
+        healthBar.SetHealth(currentHealth);
     }
 }

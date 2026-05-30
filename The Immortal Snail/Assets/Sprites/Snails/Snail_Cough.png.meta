@@ -1,13 +1,28 @@
 fileFormatVersion: 2
-guid: 7e9553eca65746e4496625c2bb542aa3
+guid: 00d369a63a580b44e9fe39bd841208e6
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 9116085041864962671
-    second: Salts 1_0
+      213: 3478741047642385036
+    second: Snail_Cough_0
   - first:
-      213: -5424870242378722412
-    second: Salts 1_1
+      213: -2843336974143176002
+    second: Snail_Cough_1
+  - first:
+      213: -3384374078809797140
+    second: Snail_Cough_2
+  - first:
+      213: -665824535521938489
+    second: Snail_Cough_3
+  - first:
+      213: 1279213871315941910
+    second: Snail_Cough_4
+  - first:
+      213: 331595616773097221
+    second: Snail_Cough_5
+  - first:
+      213: -365909179925415576
+    second: Snail_Cough_6
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -129,13 +144,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Salts 1_0
+      name: Snail_Cough_0
       rect:
         serializedVersion: 2
-        x: 359
-        y: 389
-        width: 302
-        height: 382
+        x: 159
+        y: 109
+        width: 712
+        height: 1002
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -144,20 +159,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f62fc96eb07d28e70800000000000000
-      internalID: 9116085041864962671
+      spriteID: c8a6b4a3d88f64030800000000000000
+      internalID: 3478741047642385036
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Salts 1_1
+      name: Snail_Cough_1
       rect:
         serializedVersion: 2
-        x: 809
-        y: 389
-        width: 302
-        height: 382
+        x: 899
+        y: 459
+        width: 32
+        height: 22
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,8 +181,118 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 493dd6ab14df6b4b0800000000000000
-      internalID: -5424870242378722412
+      spriteID: eb2467f26107a88d0800000000000000
+      internalID: -2843336974143176002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail_Cough_2
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 439
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ced808dd4b94801d0800000000000000
+      internalID: -3384374078809797140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail_Cough_3
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 419
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c3b975dc1482c6f0800000000000000
+      internalID: -665824535521938489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail_Cough_4
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 379
+        width: 42
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61af9870d3ea0c110800000000000000
+      internalID: 1279213871315941910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail_Cough_5
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 379
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50746d2e4701a9400800000000000000
+      internalID: 331595616773097221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snail_Cough_6
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 289
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 869bd7e1a870ceaf0800000000000000
+      internalID: -365909179925415576
       vertices: []
       indices: 
       edges: []
@@ -186,8 +311,13 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Salts 1_0: 9116085041864962671
-      Salts 1_1: -5424870242378722412
+      Snail_Cough_0: 3478741047642385036
+      Snail_Cough_1: -2843336974143176002
+      Snail_Cough_2: -3384374078809797140
+      Snail_Cough_3: -665824535521938489
+      Snail_Cough_4: 1279213871315941910
+      Snail_Cough_5: 331595616773097221
+      Snail_Cough_6: -365909179925415576
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
