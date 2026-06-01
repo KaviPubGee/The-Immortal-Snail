@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
+using UnityEngine.EventSystems;
 
 public class MainMenuSnailFollow : MonoBehaviour
 {
@@ -26,6 +27,15 @@ public class MainMenuSnailFollow : MonoBehaviour
     public float hideTime = 0.5f;
     public float appearTime = 0.5f;
 
+    [Header("Click Feedback")]
+    public ParticleSystem clickParticles;
+    public float flashTime = 0.08f;
+    public Color clickFlashColor = Color.gray;
+
+    private Color originalColor;
+
+    public PlayerFollowMouse playerFollowMouse;
+
     [Header("Secret Clicks")]
     public int clicks = 20;
     private int playerClicks;
@@ -37,6 +47,18 @@ public class MainMenuSnailFollow : MonoBehaviour
     private bool isEscaping = false;
 
     private Coroutine specialRoutine;
+
+    private int patrolDirection = 1;
+
+    private bool mouseIsOverSnail = false;
+
+    private bool quitButtonHoveredBySnail = false;
+
+
+    void Start()
+    {
+        originalColor = spriteRenderer.color;
+    }
 
     void Update()
     {
@@ -50,10 +72,17 @@ public class MainMenuSnailFollow : MonoBehaviour
             return;
         }
 
-        Vector3 mouseWorldPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        mouseWorldPos.z = 0f;
+        //Decide which adge the snail is currently walking towrds
+        float targetX;
 
-        float targetX = Mathf.Clamp(mouseWorldPos.x, minX, maxX);
+        if (patrolDirection == 1)
+        {
+            targetX = maxX;
+        }
+        else
+        {
+            targetX = minX;
+        }
 
         Vector3 targetPosition = new Vector3(targetX, labelY, transform.position.z);
 
@@ -84,6 +113,8 @@ public class MainMenuSnailFollow : MonoBehaviour
         }
         else
         {
+            patrolDirection *= -1;
+
             animator.speed = 0f;
             currentAnimation = "";
         }
@@ -108,6 +139,8 @@ public class MainMenuSnailFollow : MonoBehaviour
 
     private void OnMouseEnter()
     {
+        mouseIsOverSnail = true;
+
         if (isEscaping) return;
         if (isHidden || isPlayingSpecialAnimation) return;
 
@@ -121,13 +154,16 @@ public class MainMenuSnailFollow : MonoBehaviour
 
     private void OnMouseExit()
     {
-        if (isEscaping) return;
-        if (!isHidden || isPlayingSpecialAnimation) return;
+        mouseIsOverSnail = false;
 
-        if (specialRoutine != null)
+        if (isEscaping) return;
+        if (!isHidden || isPlayingSpecialAnimation)
         {
-            StopCoroutine(specialRoutine);
-        }
+            if (specialRoutine != null)
+            {
+                StopCoroutine(specialRoutine);
+            }
+        }        
 
         specialRoutine = StartCoroutine(AppearRoutine());
     }
@@ -139,11 +175,43 @@ public class MainMenuSnailFollow : MonoBehaviour
 
         playerClicks++;
 
+        StartCoroutine(ClickFeedback());
+
         Debug.Log("Hidden snail clicked: " + playerClicks);
 
         if (playerClicks >= clicks)
         {
             StartCoroutine(SnailEscapeRoutine());
+        }
+    }
+
+    void CheckQuitButtonHover()
+    {
+        if (quitButton == null || quitButtonHoveredBySnail) return;
+
+        RectTransform quitRect = quitButton.GetComponent<RectTransform>();
+
+        Vector2 snailScreenPos = Camera.main.WorldToScreenPoint(transform.position);
+
+        bool snailIsOverButton = RectTransformUtility.RectangleContainsScreenPoint(
+            quitRect,
+            snailScreenPos,
+            null
+        );
+
+        if (snailIsOverButton)
+        {
+            quitButtonHoveredBySnail = true;
+
+            PointerEventData pointerData = new PointerEventData(EventSystem.current);
+
+            ExecuteEvents.Execute(
+                quitButton.gameObject,
+                pointerData,
+                ExecuteEvents.pointerEnterHandler
+            );
+
+            Debug.Log("Snail is hovering over quit button");
         }
     }
 
@@ -157,6 +225,16 @@ public class MainMenuSnailFollow : MonoBehaviour
 
         isHidden = true;
         isPlayingSpecialAnimation = false;
+
+        if (!mouseIsOverSnail && !isEscaping)
+        {
+            if (specialRoutine != null)
+            {
+                StopCoroutine(specialRoutine);
+            }
+
+            specialRoutine = StartCoroutine(AppearRoutine());
+        }
     }
 
     IEnumerator AppearRoutine()
@@ -179,6 +257,8 @@ public class MainMenuSnailFollow : MonoBehaviour
         isEscaping = true;
         isHidden = false;
         isPlayingSpecialAnimation = true;
+        playerFollowMouse.enabled = false;
+        Cursor.lockState = CursorLockMode.Locked;
 
         // First come out of shell
         ForcePlayAnimation("Snail_Appear");
@@ -228,10 +308,21 @@ public class MainMenuSnailFollow : MonoBehaviour
 
         animator.speed = 0f;
 
-        Debug.Log("Snail clicked quit button");
+        Debug.Log("Snail reached quit button");
 
         if (quitButton != null)
         {
+            PointerEventData pointerData = new PointerEventData(EventSystem.current);
+
+            ExecuteEvents.Execute(
+                quitButton.gameObject,
+                pointerData,
+                ExecuteEvents.pointerEnterHandler
+            );
+
+            yield return new WaitForSeconds(0.5f);
+
+            Debug.Log("Clicked quit button");
             quitButton.onClick.Invoke();
         }
     }
@@ -262,9 +353,35 @@ public class MainMenuSnailFollow : MonoBehaviour
                 }
             }
 
+            CheckQuitButtonHover();
+
             yield return null;
         }
 
         transform.position = targetPosition;
+    }
+
+    IEnumerator ClickFeedback()
+    {
+        // particles
+        if (clickParticles != null)
+        {
+            clickParticles.Play();
+        }
+
+        // tiny shake
+        Vector3 originalPosition = transform.position;
+
+        transform.position = originalPosition + new Vector3(0.03f, 0f, 0f);
+        spriteRenderer.color = clickFlashColor;
+
+        yield return new WaitForSeconds(0.04f);
+
+        transform.position = originalPosition + new Vector3(-0.03f, 0f, 0f);
+
+        yield return new WaitForSeconds(0.04f);
+
+        transform.position = originalPosition;
+        spriteRenderer.color = originalColor;
     }
 }
