@@ -10,6 +10,7 @@ public class MainMenu : MonoBehaviour
     void Start()
     {
         Fadepanel.SetActive(true);
+        MenuMusic.instance?.FadeIn();
     }
 
     public void Play()
@@ -41,21 +42,22 @@ public class MainMenu : MonoBehaviour
     {
         animator.SetTrigger("Start");
 
-        yield return new WaitForSeconds(2);
-
-        if (levelName == "MainLevel")
+        if (levelName == "MainLevel" && MenuMusic.instance != null)
         {
-            if(MenuMusic.instance != null)
-            {
-                MenuMusic.instance.StopMusic();
-            }
+            MenuMusic.instance.FadeOutAndStop();
         }
+
+        MenuMusic.instance.FadeOut();
+
+        yield return new WaitForSeconds(2);
 
         if (levelName == "Quit")
         {
             Application.Quit();
         }
-
-        SceneManager.LoadScene(levelName);
+        else
+        {
+            SceneManager.LoadScene(levelName);
+        }        
     }
 }

@@ -15,6 +15,15 @@ public class MainMenuSnailFollow : MonoBehaviour
     [Header("Fixed Y Position")]
     public float labelY = 2f;
 
+    [Header("Audio")]
+    public AudioClip snailHideAudioClip;
+    public AudioClip snailAppearAudioClip;
+    public AudioClip snailClicked;
+    public AudioClip hover;
+    public AudioClip buttonClicked;
+    public AudioSource audioSource;
+    
+
     [Header("Quit Button Target")]
     public Transform quitButtonTarget;
     public Button quitButton;
@@ -173,6 +182,8 @@ public class MainMenuSnailFollow : MonoBehaviour
         if (!isHidden) return;
         if (isEscaping) return;
 
+        audioSource.PlayOneShot(snailClicked);
+
         playerClicks++;
 
         StartCoroutine(ClickFeedback());
@@ -220,6 +231,7 @@ public class MainMenuSnailFollow : MonoBehaviour
         isPlayingSpecialAnimation = true;
 
         ForcePlayAnimation("Snail_Hide");
+        audioSource.PlayOneShot(snailHideAudioClip);
 
         yield return new WaitForSeconds(hideTime);
 
@@ -242,6 +254,7 @@ public class MainMenuSnailFollow : MonoBehaviour
         isPlayingSpecialAnimation = true;
 
         ForcePlayAnimation("Snail_Appear");
+        audioSource.PlayOneShot(snailAppearAudioClip);
 
         yield return new WaitForSeconds(appearTime);
 
@@ -309,6 +322,7 @@ public class MainMenuSnailFollow : MonoBehaviour
         animator.speed = 0f;
 
         Debug.Log("Snail reached quit button");
+        audioSource.PlayOneShot(hover);
 
         if (quitButton != null)
         {
@@ -323,6 +337,7 @@ public class MainMenuSnailFollow : MonoBehaviour
             yield return new WaitForSeconds(0.5f);
 
             Debug.Log("Clicked quit button");
+            audioSource.PlayOneShot(buttonClicked);
             quitButton.onClick.Invoke();
         }
     }
