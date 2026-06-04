@@ -6250,7 +6250,7 @@ AudioSource:
   m_GameObject: {fileID: 1550306305}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 906061918932415057, guid: d2076a8ef6309284a9609a0efbcc3832, type: 2}
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 0}
   m_PlayOnAwake: 0
@@ -6606,7 +6606,7 @@ AudioSource:
   m_GameObject: {fileID: 5165696001796664667}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 24300002, guid: d2076a8ef6309284a9609a0efbcc3832, type: 2}
+  OutputAudioMixerGroup: {fileID: 1907231068172970320, guid: d2076a8ef6309284a9609a0efbcc3832, type: 2}
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: fd0f5ce50e703d845a82698cee2c4c03, type: 3}
   m_PlayOnAwake: 1
@@ -6726,6 +6726,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4a11f41f50ede6468d9806951592fd6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioMixer: {fileID: 24100000, guid: d2076a8ef6309284a9609a0efbcc3832, type: 2}
   fadeDuration: 1.5
 --- !u!212 &7539641121185290572
 SpriteRenderer:

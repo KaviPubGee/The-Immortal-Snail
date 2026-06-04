@@ -1,9 +1,12 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.Audio;
 
 public class MenuMusic : MonoBehaviour
 {
     public static MenuMusic instance;
+
+    public AudioMixer audioMixer;
 
     [Header("Fade Settings")]
     public float fadeDuration = 1.5f;
@@ -30,6 +33,7 @@ public class MenuMusic : MonoBehaviour
             audioSource.Play();
 
         FadeIn(); // fade in on first load
+        ApplySavedSettings();
     }
 
     // Call this from each menu scene's Start() to re-fade in
@@ -52,6 +56,19 @@ public class MenuMusic : MonoBehaviour
     {
         if (currentFade != null) StopCoroutine(currentFade);
         currentFade = StartCoroutine(FadeOutCoroutine());
+    }
+
+    void ApplySavedSettings()
+    {
+        ApplyMixerVolume("volume", PlayerPrefs.GetFloat("volume", 9f));
+        ApplyMixerVolume("VoicelinesVolume", PlayerPrefs.GetFloat("VoicelinesVolume", 9f));
+        ApplyMixerVolume("SFXVolume", PlayerPrefs.GetFloat("SFXVolume", 9f));
+    }
+
+    void ApplyMixerVolume(string paramName, float sliderValue)
+    {
+        float normalized = Mathf.Max(sliderValue / 9f, 0.0001f);
+        audioMixer.SetFloat(paramName, Mathf.Log10(normalized) * 20f);
     }
 
     IEnumerator FadeOutCoroutine()

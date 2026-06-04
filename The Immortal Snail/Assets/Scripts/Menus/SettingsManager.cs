@@ -36,6 +36,14 @@ public class SettingsManager : MonoBehaviour
             offDeselectedFullScreen.gameObject.SetActive(false);
         }
 
+        musicSlider.value = PlayerPrefs.GetFloat("volume", 9f);
+        voicelinesSlider.value = PlayerPrefs.GetFloat("VoicelinesVolume", 9f);
+        soundEffectsSlider.value = PlayerPrefs.GetFloat("SFXVolume", 9f);
+
+        musicSlider.onValueChanged.AddListener(SetVolume);
+        voicelinesSlider.onValueChanged.AddListener(SetVoicelineVolume);
+        soundEffectsSlider.onValueChanged.AddListener(SoundEffectVolume);
+
         musicSlider.onValueChanged.AddListener(OnSliderMoved);
         voicelinesSlider.onValueChanged.AddListener(OnSliderMoved);
         soundEffectsSlider.onValueChanged.AddListener(OnSliderMoved);
@@ -49,6 +57,8 @@ public class SettingsManager : MonoBehaviour
     #region Volume Sliders
     public void SetVolume(float volume)
     {
+        PlayerPrefs.SetFloat("volume", volume);
+
         // normalize 0-9 to 0.0001-1, then convert to dB
         float normalized = volume / 9f;
         normalized = Mathf.Max(normalized, 0.0001f); // avoid Log10(0)
@@ -57,6 +67,8 @@ public class SettingsManager : MonoBehaviour
 
     public void SetVoicelineVolume(float volume)
     {
+        PlayerPrefs.SetFloat("VoicelinesVolume", volume);
+
         // normalize 0-9 to 0.0001-1, then convert to dB
         float normalized = volume / 9f;
         normalized = Mathf.Max(normalized, 0.0001f); // avoid Log10(0)
@@ -65,6 +77,8 @@ public class SettingsManager : MonoBehaviour
 
     public void SoundEffectVolume(float volume)
     {
+        PlayerPrefs.SetFloat("SFXVolume", volume);
+        
         // normalize 0-9 to 0.0001-1, then convert to dB
         float normalized = volume / 9f;
         normalized = Mathf.Max(normalized, 0.0001f); // avoid Log10(0)
