@@ -1,2 +1,16 @@
 fileFormatVersion: 2
 guid: 0a6ba3101c7f93b48a3da159cc05d80b
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - snail: {instanceID: 0}
+  - menuSnail: {instanceID: 0}
+  - circleMask: {instanceID: 0}
+  - mouse: {fileID: 7136822132031070943, guid: 20dc211077aa1ef46ab61c9b885a90e3, type: 3}
+  - blackPanel: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

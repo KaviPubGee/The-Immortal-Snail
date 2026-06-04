@@ -29,7 +29,10 @@ public class DialogueManager : MonoBehaviour
     public Texture2D snailPain;
 
 
+    [Header("")]
     public float typeSpeed = 0.04f;
+
+    public float waitTime = 5f;
 
     [Header("Dialogues")]
     [TextArea] public string[] introDialogue;
@@ -143,7 +146,7 @@ public class DialogueManager : MonoBehaviour
         Cursor.lockState = CursorLockMode.Confined;
         Cursor.visible = false;
 
-        yield return new WaitForSecondsRealtime(3f);
+        yield return new WaitForSecondsRealtime(waitTime);
 
         while (pauseMenu != null && pauseMenu.IsPaused)
         {
