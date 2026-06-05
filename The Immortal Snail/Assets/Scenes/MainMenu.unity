@@ -6608,7 +6608,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 1907231068172970320, guid: d2076a8ef6309284a9609a0efbcc3832, type: 2}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 8300000, guid: fd0f5ce50e703d845a82698cee2c4c03, type: 3}
+  m_Resource: {fileID: 8300000, guid: fba2ebae27fb73444a3296f029b60773, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.5
   m_Pitch: 1
@@ -6906,7 +6906,7 @@ MonoBehaviour:
   minX: -6
   maxX: 6
   labelY: 3.4
-  snailHideAudioClip: {fileID: 8300000, guid: 61efa7bdbd22ffe4aa1f2157f2d77909, type: 3}
+  snailHideAudioClip: {fileID: 8300000, guid: 824338f92aaf74041b360d172b433bc9, type: 3}
   snailAppearAudioClip: {fileID: 8300000, guid: 75af1e1ea6d99a24a9a112327366bf73, type: 3}
   snailClicked: {fileID: 8300000, guid: 046c2c696c1a26b4dbdfd6284e0a7029, type: 3}
   hover: {fileID: 8300000, guid: 5364c0e8819032a4286f5004765257f8, type: 3}

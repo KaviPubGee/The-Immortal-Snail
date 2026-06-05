@@ -128,9 +128,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 138409154}
-  - component: {fileID: 138409155}
+  - component: {fileID: 138409156}
   m_Layer: 0
-  m_Name: HowToPlayManager
+  m_Name: ThankyouSceneManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -151,7 +151,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &138409155
+--- !u!114 &138409156
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -160,10 +160,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 138409152}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0a6ba3101c7f93b48a3da159cc05d80b, type: 3}
+  m_Script: {fileID: 11500000, guid: 90d13de6e44531b4c94ccb4d0d3241ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Fadepanel: {fileID: 1721844168344913452}
   animator: {fileID: 3767968422811739374}
 --- !u!1 &435073010
 GameObject:
@@ -569,8 +568,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 738.1468, y: -435.6}
-  m_SizeDelta: {x: 284.4453, y: 91.2653}
+  m_AnchoredPosition: {x: 0, y: -344}
+  m_SizeDelta: {x: 353.4, y: 113.39}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &959695703
 MonoBehaviour:
@@ -601,8 +600,8 @@ MonoBehaviour:
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
-    m_HighlightedSprite: {fileID: -6738241475738720160, guid: 13e13b279ae4d194ca0fb8cb1b24bec3, type: 3}
-    m_PressedSprite: {fileID: -4321533483848414576, guid: 13e13b279ae4d194ca0fb8cb1b24bec3, type: 3}
+    m_HighlightedSprite: {fileID: -3641515428665732255, guid: 4309624944b84584fb2c90109064c6f6, type: 3}
+    m_PressedSprite: {fileID: -7666356379388377583, guid: 4309624944b84584fb2c90109064c6f6, type: 3}
     m_SelectedSprite: {fileID: 0}
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
@@ -616,9 +615,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 138409155}
-        m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
-        m_MethodName: Back
+      - m_Target: {fileID: 138409156}
+        m_TargetAssemblyTypeName: ThankyouScreen, Assembly-CSharp
+        m_MethodName: ReturnToMainMenu
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -648,7 +647,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -9042028117199634284, guid: 13e13b279ae4d194ca0fb8cb1b24bec3, type: 3}
+  m_Sprite: {fileID: 8752659940091308312, guid: 4309624944b84584fb2c90109064c6f6, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -890,7 +889,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 188760425598078981, guid: b7c7b6ff6fcb4d547b97c9a40c52f365, type: 3}
+  m_Sprite: {fileID: 5705357154609515737, guid: 9b023b35e13619a4caf9eef0048f1efe, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -934,7 +933,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!223 &1889241952056849105
 Canvas:
   m_ObjectHideFlags: 0
@@ -1120,8 +1119,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4a11f41f50ede6468d9806951592fd6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioMixer: {fileID: 0}
-  fadeDuration: 1.5
+  audioMixer: {fileID: 24100000, guid: d2076a8ef6309284a9609a0efbcc3832, type: 2}
+  fadeDuration: 10
 --- !u!4 &8203615070173925922
 Transform:
   m_ObjectHideFlags: 0
@@ -1166,9 +1165,9 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 1907231068172970320, guid: d2076a8ef6309284a9609a0efbcc3832, type: 2}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 8300000, guid: fba2ebae27fb73444a3296f029b60773, type: 3}
+  m_Resource: {fileID: 8300000, guid: 7f056923219ab034b904bec00bf02726, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.5
+  m_Volume: 1
   m_Pitch: 1
   Loop: 1
   Mute: 0

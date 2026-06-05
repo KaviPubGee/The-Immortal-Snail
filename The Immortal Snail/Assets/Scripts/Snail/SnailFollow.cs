@@ -11,7 +11,7 @@ public class SnailFollow : MonoBehaviour
     public SpriteRenderer spriteRenderer;
 
     private bool isPlayingSpecialAnimation = false;
-    private bool lastFlipX = false;
+    [HideInInspector]public bool lastFlipX = false;
     private string currentAnimation = "";
 
     private enum SnailDirection

@@ -5,9 +5,13 @@ public class PauseMenu : MonoBehaviour
 {
     public GameObject pauseMenuCanvas;
 
+    public GameOverManager gameOverManager;
+
     public PlayerFollowMouse playerFollowMouse;
     public DialogueManager dialogueManager;
     public TypeWriterEffect typeWriter;
+
+    public AudioSource gameMusic;
 
     public bool IsPaused { get; private set; } = false;
 
@@ -18,7 +22,7 @@ public class PauseMenu : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape))
+        if (Input.GetKeyDown(KeyCode.Escape) && !gameOverManager.hasDied)
         {
             if (IsPaused)
             {
@@ -45,6 +49,11 @@ public class PauseMenu : MonoBehaviour
         if (typeWriter != null) typeWriter.Pause();
 
         Time.timeScale = 0f;
+
+        if (gameMusic != null)
+        {
+            gameMusic.volume =  0.1f;
+        }
 
         if (playerFollowMouse != null)
         {
@@ -80,6 +89,11 @@ public class PauseMenu : MonoBehaviour
             Cursor.lockState = CursorLockMode.Confined;
 
             return;
+        }
+
+        if (gameMusic != null)
+        {
+            gameMusic.volume =  1f;
         }
 
         // Only resume normally if no dialogue is active.

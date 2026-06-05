@@ -15,6 +15,7 @@ public class MainMenu : MonoBehaviour
 
     public void Play()
     {
+        DialogueManager.ResetDialogueFlags();
         StartCoroutine(LoadLevel("MainLevel"));
     }
 

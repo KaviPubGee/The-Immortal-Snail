@@ -124,6 +124,11 @@ public class DialogueManager : MonoBehaviour
         }
     }
 
+    public void LowerVolume()
+    {
+        
+    }
+
     public static void ResetDialogueFlags()
     {
         playedIntroDialogue = false;
