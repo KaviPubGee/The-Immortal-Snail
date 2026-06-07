@@ -102,6 +102,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   snail: {fileID: 0}
+  lifetime: 5
 --- !u!61 &1400998901661222498
 BoxCollider2D:
   m_ObjectHideFlags: 0

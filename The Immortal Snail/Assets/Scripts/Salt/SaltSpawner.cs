@@ -10,6 +10,10 @@ public class SaltSpawner : MonoBehaviour
     public bool snailSaltUnlocked = false;
     public SnailFollow snail;
 
+    [Header("Audio")]
+    public AudioSource audioSource;
+    public AudioClip spawnSound;
+
     [Header("Spawn Area")]
     public float minX = -7f;
     public float maxX = 7f;
@@ -17,9 +21,8 @@ public class SaltSpawner : MonoBehaviour
     public float maxY = 4f;
 
     [Header("Spawn Settings")]
-    public float spawnDelay = 2f;
-
-    private GameObject currentSalt;
+    public float spawnDelay = 3.5f;
+    public int maxSaltsOnScreen = 4; // Caps how many salts can exist at once!
 
     public bool firstSaltSpawned = false;
 
@@ -34,27 +37,33 @@ public class SaltSpawner : MonoBehaviour
 
         while (true)
         {
-            SpawnSalt();
+            // Only spawn a new salt if the player hasn't let the map fill up too much
+            int currentSaltCount = GameObject.FindGameObjectsWithTag("Salt").Length 
+                                 + GameObject.FindGameObjectsWithTag("SnailSalt").Length;
 
-            if (!firstSaltSpawned)
+            if (currentSaltCount < maxSaltsOnScreen)
             {
-                yield return new WaitForSeconds(0.5f);
-                firstSaltSpawned = true;
-            }
+                SpawnSalt();
 
-            //Wait while salt exists
-            while (currentSalt != null)
-            {
-                yield return null;
+                if (!firstSaltSpawned)
+                {
+                    yield return new WaitForSeconds(0.5f);
+                    firstSaltSpawned = true;
+                }
             }
             
-            //Salt is gone, now wait before the next spawn
+            // Wait the delay time, then check if we should spawn another!
             yield return new WaitForSeconds(spawnDelay);
         }
     }
 
     void SpawnSalt()
     {
+        if (audioSource != null && spawnSound != null)
+        {
+            audioSource.PlayOneShot(spawnSound);
+        }
+
         GameObject prefabToSpawn;
 
         float randomX = Random.Range(minX, maxX);
@@ -80,9 +89,9 @@ public class SaltSpawner : MonoBehaviour
             }
         }
 
-        currentSalt = Instantiate(prefabToSpawn, spawnPosition, Quaternion.identity);
+        GameObject newSalt = Instantiate(prefabToSpawn, spawnPosition, Quaternion.identity);
 
-        Salt saltScript = currentSalt.GetComponent<Salt>();
+        Salt saltScript = newSalt.GetComponent<Salt>();
 
         if (saltScript != null)
         {

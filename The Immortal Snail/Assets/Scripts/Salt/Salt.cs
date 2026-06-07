@@ -4,6 +4,7 @@ using System.Collections;
 public class Salt : MonoBehaviour
 {
     public SnailFollow snail;
+    public float lifetime = 10f; // Increased default lifespan!
 
     void Start()
     {
@@ -25,8 +26,8 @@ public class Salt : MonoBehaviour
 
         transform.localScale = Vector3.one;
 
-        // Stay for 5 seconds
-        yield return new WaitForSeconds(1f);
+        // Stay on screen for the lifetime duration
+        yield return new WaitForSeconds(lifetime);
 
         // Scale out
         while (transform.localScale.x > 0.05f)

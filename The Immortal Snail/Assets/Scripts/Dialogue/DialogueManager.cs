@@ -83,14 +83,14 @@ public class DialogueManager : MonoBehaviour
             StartDialogue(firstSaltDialogue);
         }
 
-        if (saltSpawner.saltCollected >= 1 && !playedFirstSaltDialogueAfterCollecting && !dialogueActive)
+        if (playerCollision.snailHitsWithSalt >= 1 && !playedFirstSaltDialogueAfterCollecting && !dialogueActive)
         {
             playedFirstSaltDialogueAfterCollecting = true;
             snailPicture.texture = snailScared;
             StartDialogue(firstSaltDialogueAfterCollecting);
         }
 
-        if (saltSpawner.saltCollected >= 5 && !playedFirstDialogueAfterCollectingFive && !dialogueActive)
+        if (playerCollision.snailHitsWithSalt >= 5 && !playedFirstDialogueAfterCollectingFive && !dialogueActive)
         {
             playedFirstDialogueAfterCollectingFive = true;
             snailPicture.texture = snailMad;

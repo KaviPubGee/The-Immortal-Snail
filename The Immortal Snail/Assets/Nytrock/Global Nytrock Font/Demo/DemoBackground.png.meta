@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 73eb5bf55e945a44da92079ef0cbc700
+guid: aa569ced239fce141b4035a55b747440
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4146752850321066981
-    second: ChatGPT Image May 24, 2026, 09_53_41 PM_0
+      213: 1647861230519549677
+    second: DemoBackground_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -97,6 +97,19 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
     buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -110,7 +123,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: WindowsStoreApps
+    buildTarget: iOS
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -126,13 +139,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ChatGPT Image May 24, 2026, 09_53_41 PM_0
+      name: DemoBackground_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1672
-        height: 941
+        width: 795
+        height: 480
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +154,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5ebc9b63fb93c8930800000000000000
-      internalID: 4146752850321066981
+      spriteID: dee7144fe016ed610800000000000000
+      internalID: 1647861230519549677
       vertices: []
       indices: 
       edges: []
@@ -161,9 +174,16 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      ChatGPT Image May 24, 2026, 09_53_41 PM_0: 4146752850321066981
+      DemoBackground_0: 1647861230519549677
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 322855
+  packageName: Free retro pixel font - GNF
+  packageVersion: 1.1.1
+  assetPath: Assets/Nytrock/Global Nytrock Font/Demo/DemoBackground.png
+  uploadId: 820242

@@ -3,9 +3,25 @@ using System.Collections;
 
 public class SnailFollow : MonoBehaviour
 {
+    [Header("Speed Settings")]
     public float moveSpeed = 1f;
+    public float maxMoveSpeed = 3.0f; // Cap so he doesn't become Sonic
+    public float speedIncreaseAmount = 0.15f; // How much speed he gains every 10s
+
+    [Header("Hit Feedback")]
+    public ParticleSystem hitParticles; // Drag a Unity Particle System here!
+    public Color hitColor = Color.red;
+    public float flashDuration = 0.2f;
+
     public Transform player;
     public bool isFrozen = false;
+
+    [Header("Audio")]
+    public AudioSource moveAudioSource; // Place your looping slither sound here
+    public AudioSource sfxAudioSource;  // Place an AudioSource for snappy sound effects
+    public AudioClip retractSound;
+    public AudioClip appearSound;
+    public AudioClip hitSound;
 
     private Animator animator;
     public SpriteRenderer spriteRenderer;
@@ -27,12 +43,30 @@ public class SnailFollow : MonoBehaviour
     void Start()
     {
         animator = GetComponent<Animator>();
+        StartCoroutine(SpeedUpOverTime());
+    }
+
+    IEnumerator SpeedUpOverTime()
+    {
+        while (true)
+        {
+            yield return new WaitForSeconds(10f);
+            
+            if (moveSpeed < maxMoveSpeed)
+            {
+                moveSpeed = Mathf.Min(moveSpeed + speedIncreaseAmount, maxMoveSpeed);
+                Debug.Log("The snail is accelerating! Current Speed: " + moveSpeed);
+            }
+        }
     }
 
     void Update()
     {
-        if (isFrozen || isPlayingSpecialAnimation)
+        if (isFrozen || isPlayingSpecialAnimation || Time.timeScale == 0f)
         {
+            if (moveAudioSource != null && moveAudioSource.isPlaying)
+                moveAudioSource.Pause();
+
             return;
         }
 
@@ -42,6 +76,9 @@ public class SnailFollow : MonoBehaviour
 
         if (direction.magnitude > 0.01f)
         {
+            if (moveAudioSource != null && !moveAudioSource.isPlaying)
+                moveAudioSource.Play();
+
             direction.Normalize();
 
             transform.position = Vector2.MoveTowards(
@@ -100,6 +137,9 @@ public class SnailFollow : MonoBehaviour
     {
         isPlayingSpecialAnimation = true;
 
+        if (sfxAudioSource != null && retractSound != null)
+            sfxAudioSource.PlayOneShot(retractSound);
+
         ApplyFlipForSpecialAnimation();
         PlayAnimation(GetHideAnimation());
 
@@ -110,6 +150,9 @@ public class SnailFollow : MonoBehaviour
         yield return new WaitForSeconds(duration);
 
         isFrozen = false;
+
+        if (sfxAudioSource != null && appearSound != null)
+            sfxAudioSource.PlayOneShot(appearSound);
 
         ApplyFlipForSpecialAnimation();
         PlayAnimation(GetAppearAnimation());
@@ -164,5 +207,51 @@ public class SnailFollow : MonoBehaviour
         {
             spriteRenderer.flipX = false;
         }
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("PlacedSalt"))
+        {
+            Destroy(other.gameObject);
+            
+            if (sfxAudioSource != null && hitSound != null)
+                sfxAudioSource.PlayOneShot(hitSound);
+
+            if (hitParticles != null) 
+                hitParticles.Play();
+            
+            StartCoroutine(DamageFlashRoutine());
+
+            PlayerCollision playerCol = FindFirstObjectByType<PlayerCollision>();
+            if (playerCol != null)
+            {
+                playerCol.TakeDamage(3);
+                playerCol.snailHitsWithSalt++;
+            }
+
+            FreezeSnail(2f);
+        }
+    }
+
+    private bool isFlashing = false;
+
+    private IEnumerator DamageFlashRoutine()
+    {
+        if (isFlashing) yield break;
+        isFlashing = true;
+
+        Color originalColor = spriteRenderer.color;
+        spriteRenderer.color = hitColor;
+        
+        yield return new WaitForSeconds(flashDuration);
+        
+        // Don't accidentally override the invisible curse if it happens to overlap!
+        if (spriteRenderer.color == hitColor) 
+        {
+            spriteRenderer.color = originalColor;
+        }
+
+        isFlashing = false;
     }
 }

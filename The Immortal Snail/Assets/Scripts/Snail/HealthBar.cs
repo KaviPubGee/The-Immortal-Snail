@@ -28,7 +28,7 @@ public class HealthBar : MonoBehaviour
 
     void Update()
     {
-        if (slider.value <= 0)
+        if (slider.value <= 0 && !isDying)
         {
             isDying = true;
             StartCoroutine(TransitionToThankYou());
@@ -41,15 +41,22 @@ public class HealthBar : MonoBehaviour
         Time.timeScale = 0f;
 
         // 2. Play the visual fade
-        fadeAnimator.Play("FadeOutSlow");
+        if (fadeAnimator != null)
+        {
+            fadeAnimator.Play("FadeOutSuperSlow");
+        }
 
         // 3. Play the audio fade
         if (gameMusic != null) {
             StartCoroutine(FadeOutMusicUnscaled(gameMusic.volume, 0f, fadeDuration));
         }
 
-        // 4. Wait for 5 seconds
+        // 4. Wait for the duration
         yield return new WaitForSecondsRealtime(fadeDuration);
+
+        // Reset the timeScale back to normal before loading a new scene!!!
+        // Otherwise, the Thank You scene will load completely frozen!
+        Time.timeScale = 1f;
 
         // 5. Load Thank You
         SceneManager.LoadScene("ThankYouScene"); 

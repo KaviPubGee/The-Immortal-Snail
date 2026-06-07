@@ -33,6 +33,12 @@ public class GameOverManager : MonoBehaviour
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Confined;
 
+        CurseManager curseManager = FindFirstObjectByType<CurseManager>();
+        if (curseManager != null)
+        {
+            curseManager.ForceClearUI();
+        }
+
         StartCoroutine(DeathSequence());
     }
 

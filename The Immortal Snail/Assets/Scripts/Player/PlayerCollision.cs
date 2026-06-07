@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections.Generic;
 
 public class PlayerCollision : MonoBehaviour
 {
@@ -19,6 +20,24 @@ public class PlayerCollision : MonoBehaviour
     
     public int saltCollected = 0;
 
+    [Header("Salt Grenade Logic")]
+    public int saltCharges = 0;
+    public GameObject thrownSaltPrefab;
+    public GameObject placedSaltPrefab;
+    public GameObject aimDotPrefab;       // Small circle sprite for the arc dots
+    public int dotCount = 12;             // How many dots in the arc preview
+    public float throwPowerMultiplier = 1.5f;
+    public float arcHeight = 2f;          // Must match ThrowSalt.arcHeight!
+
+    [Header("Audio")]
+    public AudioSource playerAudio;
+    public AudioClip collectSaltSound;
+
+    [HideInInspector] public int snailHitsWithSalt = 0;
+
+    private Vector2 slingshotStartMousePos;
+    private bool isAiming = false;
+    private List<GameObject> arcDots = new List<GameObject>();
 
     void Start()
     {
@@ -28,35 +47,70 @@ public class PlayerCollision : MonoBehaviour
 
     void Update()
     {
+        // ------------- AIMING THE SLINGSHOT -------------
+        PlayerFollowMouse followMouse = GetComponent<PlayerFollowMouse>();
+
+        if (Input.GetMouseButtonDown(1) && saltCharges > 0)
+        {
+            isAiming = true;
+            slingshotStartMousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        }
+
+        if (Input.GetMouseButton(1) && isAiming)
+        {
+            Vector2 currentMousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            Vector2 dragVector = (slingshotStartMousePos - currentMousePos) * throwPowerMultiplier;
+            Vector2 startPos = transform.position;
+            Vector2 targetPos = startPos + dragVector;
+
+            DrawArcDots(startPos, targetPos);
+        }
+
+        if (Input.GetMouseButtonUp(1) && isAiming)
+        {
+            isAiming = false;
+            ClearArcDots();
+
+            Vector2 finalMousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            Vector2 dragVector = (slingshotStartMousePos - finalMousePos) * throwPowerMultiplier;
+            Vector2 targetLandingSpot = (Vector2)transform.position + dragVector;
+
+            GameObject grenade = Instantiate(thrownSaltPrefab, transform.position, Quaternion.identity);
+            ThrowSalt throwScript = grenade.GetComponent<ThrowSalt>();
+            
+            float distance = Vector2.Distance(transform.position, targetLandingSpot);
+            throwScript.arcHeight = Mathf.Min(distance * 0.4f, arcHeight);
+            
+            throwScript.Toss(transform.position, targetLandingSpot, placedSaltPrefab);
+
+            saltCharges--;
+        }
+
+        // ------------- COLLECTING SALT -------------
         if (isHoveringSalt && Input.GetMouseButtonDown(0))
         {
             if (currentSalt.CompareTag("Salt"))
             {
                 Debug.Log("Collected Salt");
 
+                if (playerAudio != null && collectSaltSound != null)
+                    playerAudio.PlayOneShot(collectSaltSound);
+
+                if (saltCharges < 1) 
+                    saltCharges++;
+
                 saltCollected++;
-
-                TakeDamage(3);
-
-                snail.FreezeSnail(2f);
-
                 spawner.AddSaltCollected();
-
                 Destroy(currentSalt);
-
             }
             else if (currentSalt.CompareTag("SnailSalt"))
             {
                 Debug.Log("You picked the wrong salt!");
 
                 saltCollected = Mathf.Max(0, saltCollected - 1);
-
                 pickedUpCursedSaltFirstTime = true;
-
                 curseManager.TriggerRandomCurse();
-
                 GetHeal(5);
-
                 Destroy(currentSalt);
             }
 
@@ -65,6 +119,36 @@ public class PlayerCollision : MonoBehaviour
         }
     }
 
+    void DrawArcDots(Vector2 startPos, Vector2 targetPos)
+    {
+        ClearArcDots();
+
+        float distance = Vector2.Distance(startPos, targetPos);
+        float dynamicHeight = Mathf.Min(distance * 0.4f, arcHeight);
+
+        for (int i = 1; i <= dotCount; i++)
+        {
+            float t = (float)i / (dotCount + 1);
+            Vector2 flatPos = Vector2.Lerp(startPos, targetPos, t);
+            float height = Mathf.Sin(t * Mathf.PI) * dynamicHeight;
+            Vector3 dotPos = new Vector3(flatPos.x, flatPos.y + height, 0);
+
+            if (aimDotPrefab != null)
+            {
+                GameObject dot = Instantiate(aimDotPrefab, dotPos, Quaternion.identity);
+                arcDots.Add(dot);
+            }
+        }
+    }
+
+    void ClearArcDots()
+    {
+        foreach (GameObject dot in arcDots)
+        {
+            if (dot != null) Destroy(dot);
+        }
+        arcDots.Clear();
+    }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -83,22 +167,22 @@ public class PlayerCollision : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D other)
     {
-        if (other.CompareTag("Salt") || other.CompareTag("SnailSalt"))
+        if ((other.CompareTag("Salt") || other.CompareTag("SnailSalt")) && other.gameObject == currentSalt)
         {
             isHoveringSalt = false;
             currentSalt = null;
         }
     }
 
-    void TakeDamage(int damage)
+    public void TakeDamage(int damage)
     {
         currentHealth -= damage;
         healthBar.SetHealth(currentHealth);
     }
 
-    void GetHeal(int health)
+    public void GetHeal(int health)
     {
-        currentHealth += health;
+        currentHealth = Mathf.Min(currentHealth + health, maxHealth);
         healthBar.SetHealth(currentHealth);
     }
 }
