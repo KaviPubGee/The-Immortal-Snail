@@ -39,10 +39,12 @@ public class SnailFollow : MonoBehaviour
     }
 
     private SnailDirection lastDirection = SnailDirection.Right;
+    private PlayerCollision cachedPlayerCol;
 
     void Start()
     {
         animator = GetComponent<Animator>();
+        cachedPlayerCol = FindFirstObjectByType<PlayerCollision>();
         StartCoroutine(SpeedUpOverTime());
     }
 
@@ -223,11 +225,16 @@ public class SnailFollow : MonoBehaviour
             
             StartCoroutine(DamageFlashRoutine());
 
-            PlayerCollision playerCol = FindFirstObjectByType<PlayerCollision>();
-            if (playerCol != null)
+            if (cachedPlayerCol != null)
             {
-                playerCol.TakeDamage(3);
-                playerCol.snailHitsWithSalt++;
+                cachedPlayerCol.TakeDamage(3);
+                cachedPlayerCol.snailHitsWithSalt++;
+
+                if (cachedPlayerCol.snailHitsWithSalt >= 5 && cachedPlayerCol.spawner != null && cachedPlayerCol.spawner.snailSaltUnlocked == false)
+                {
+                    cachedPlayerCol.spawner.snailSaltUnlocked = true;
+                    Debug.Log("The snail is evolving");
+                }
             }
 
             FreezeSnail(2f);

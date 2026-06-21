@@ -9,6 +9,11 @@ public class MainMenu : MonoBehaviour
 
     void Start()
     {
+        if (UnityEngine.EventSystems.EventSystem.current != null)
+        {
+            UnityEngine.EventSystems.EventSystem.current.pixelDragThreshold = 20;
+        }
+
         Fadepanel.SetActive(true);
         MenuMusic.instance?.FadeIn();
     }

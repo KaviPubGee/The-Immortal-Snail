@@ -63,9 +63,17 @@ public class MainMenuSnailFollow : MonoBehaviour
 
     private bool quitButtonHoveredBySnail = false;
 
+    private Camera mainCamera;
+    private RectTransform quitButtonRect;
+
 
     void Start()
     {
+        mainCamera = Camera.main;
+        if (quitButton != null)
+        {
+            quitButtonRect = quitButton.GetComponent<RectTransform>();
+        }
         originalColor = spriteRenderer.color;
     }
 
@@ -198,14 +206,12 @@ public class MainMenuSnailFollow : MonoBehaviour
 
     void CheckQuitButtonHover()
     {
-        if (quitButton == null || quitButtonHoveredBySnail) return;
+        if (quitButton == null || quitButtonHoveredBySnail || quitButtonRect == null) return;
 
-        RectTransform quitRect = quitButton.GetComponent<RectTransform>();
-
-        Vector2 snailScreenPos = Camera.main.WorldToScreenPoint(transform.position);
+        Vector2 snailScreenPos = mainCamera.WorldToScreenPoint(transform.position);
 
         bool snailIsOverButton = RectTransformUtility.RectangleContainsScreenPoint(
-            quitRect,
+            quitButtonRect,
             snailScreenPos,
             null
         );

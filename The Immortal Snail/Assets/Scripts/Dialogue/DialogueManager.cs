@@ -40,6 +40,7 @@ public class DialogueManager : MonoBehaviour
     [TextArea] public string[] firstSaltDialogueAfterCollecting;
     [TextArea] public string[] firstDialogueAfterCollectingFive;
     [TextArea] public string[] firstDialogueAfterCursedSalt;
+    [TextArea] public string[] firstDialogueAfterCollectingSalt;
 
     private string[] currentDialogue;
     private int currentLineIndex = 0;
@@ -54,6 +55,7 @@ public class DialogueManager : MonoBehaviour
     private static bool playedFirstSaltDialogueAfterCollecting = false;
     private static bool playedFirstDialogueAfterCollectingFive = false;
     private static bool playedFirstDialogueAfterCursedSalt = false;
+    private static bool playedFirstDialogueAfterCollectingSalt = false;
     private static bool playedIntroDialogue = false;
 
     void Start()
@@ -88,6 +90,21 @@ public class DialogueManager : MonoBehaviour
             playedFirstSaltDialogueAfterCollecting = true;
             snailPicture.texture = snailScared;
             StartDialogue(firstSaltDialogueAfterCollecting);
+        }
+
+        if (playerCollision.saltCollected == 1 && playerCollision.snailHitsWithSalt == 0 && !playedFirstDialogueAfterCollectingSalt && !dialogueActive)
+        {
+            playedFirstDialogueAfterCollectingSalt = true;
+            snailPicture.texture = snailScared;
+            
+            if (firstDialogueAfterCollectingSalt == null || firstDialogueAfterCollectingSalt.Length == 0 || string.IsNullOrEmpty(firstDialogueAfterCollectingSalt[0]))
+            {
+                StartDialogue(new string[] { "Hey! Don't just hold onto that! Right-Click, drag back, and release to shoot it!" });
+            }
+            else
+            {
+                StartDialogue(firstDialogueAfterCollectingSalt);
+            }
         }
 
         if (playerCollision.snailHitsWithSalt >= 5 && !playedFirstDialogueAfterCollectingFive && !dialogueActive)
@@ -136,6 +153,7 @@ public class DialogueManager : MonoBehaviour
         playedFirstSaltDialogueAfterCollecting = false;
         playedFirstDialogueAfterCollectingFive = false;
         playedFirstDialogueAfterCursedSalt = false;
+        playedFirstDialogueAfterCollectingSalt = false;
     }
 
     IEnumerator StartIntroAfterDelay()
@@ -189,6 +207,20 @@ public class DialogueManager : MonoBehaviour
                     break;
                 
                 case 1:
+                    snailPicture.texture = snailNormal;
+                    break;
+            }
+        }
+
+        if (currentDialogue == firstDialogueAfterCollectingSalt)
+        {
+            switch (currentLineIndex)
+            {
+                case 0:
+                    snailPicture.texture = snailScared;
+                    break;
+                case 1:
+                case 2:
                     snailPicture.texture = snailNormal;
                     break;
             }

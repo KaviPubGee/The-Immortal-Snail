@@ -18,13 +18,16 @@ public class PlayerFollowMouse : MonoBehaviour
     private SpriteRenderer spriteRenderer;
 
     private Vector3 lastMouseWorldPos;
+    private Camera mainCamera;
 
     void Start()
     {
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Confined;
 
-        lastMouseWorldPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        mainCamera = Camera.main;
+
+        lastMouseWorldPos = mainCamera.ScreenToWorldPoint(Input.mousePosition);
         lastMouseWorldPos.z = 0f;
 
         // Put player sprite exactly where the mouse starts
@@ -38,7 +41,7 @@ public class PlayerFollowMouse : MonoBehaviour
 
     void Update()
     {
-        Vector3 mouseWorldPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        Vector3 mouseWorldPos = mainCamera.ScreenToWorldPoint(Input.mousePosition);
         mouseWorldPos.z = 0f;
 
         if (isFrozen)
@@ -77,7 +80,7 @@ public class PlayerFollowMouse : MonoBehaviour
 
     public void SyncWithRealMouse()
     {
-        Vector3 mouseWorldPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        Vector3 mouseWorldPos = mainCamera.ScreenToWorldPoint(Input.mousePosition);
         mouseWorldPos.z = 0f;
 
         mouseWorldPos.x = Mathf.Clamp(mouseWorldPos.x, minX, maxX);

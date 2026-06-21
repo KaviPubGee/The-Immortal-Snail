@@ -23,13 +23,25 @@ public class CursePostProcessing : MonoBehaviour
 
     IEnumerator CurseEffectRoutine()
     {
-        if (chromaticAberration != null)
-            chromaticAberration.intensity.value = 0.25f;
+        float duration = 1.0f;
+        float elapsed = 0f;
 
-        if (vignette != null)
-            vignette.intensity.value = 0.55f;
+        while (elapsed < duration)
+        {
+            elapsed += Time.unscaledDeltaTime;
+            float t = elapsed / duration;
+            
+            // Sine wave to go from 0 to 1 and back to 0
+            float intensity = Mathf.Sin(t * Mathf.PI);
 
-        yield return new WaitForSecondsRealtime(0.4f);
+            if (chromaticAberration != null)
+                chromaticAberration.intensity.value = intensity * 0.4f;
+
+            if (vignette != null)
+                vignette.intensity.value = 0.32f + (intensity * 0.23f);
+
+            yield return null;
+        }
 
         if (chromaticAberration != null)
             chromaticAberration.intensity.value = 0f;

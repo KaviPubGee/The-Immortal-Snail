@@ -46,10 +46,23 @@ public class CurseManager : MonoBehaviour
     public float invisiblePlayerAlpha = 0f;
     public float snailBoostMultiplier = 2f;
 
+    private CanvasGroup cursePanelCg;
+    private CanvasGroup curseTextCg;
+
     void Start()
     {
-        if (cursePanel != null) cursePanel.SetActive(false);
-        else if (curseText != null) curseText.gameObject.SetActive(false);
+        if (cursePanel != null) 
+        {
+            cursePanel.SetActive(false);
+            cursePanelCg = cursePanel.GetComponent<CanvasGroup>();
+            if (cursePanelCg == null) cursePanelCg = cursePanel.AddComponent<CanvasGroup>();
+        }
+        else if (curseText != null) 
+        {
+            curseText.gameObject.SetActive(false);
+            curseTextCg = curseText.GetComponent<CanvasGroup>();
+            if (curseTextCg == null) curseTextCg = curseText.gameObject.AddComponent<CanvasGroup>();
+        }
     }
 
     void Update()
@@ -110,10 +123,20 @@ public class CurseManager : MonoBehaviour
         else if (curse == CurseType.SnailFullHealth)
             StartCoroutine(SnailFullHealthRoutine());
         else if (curse == CurseType.InstantGameOver)
-        {
-            ShowCursePopup("INSTANT DEATH!");
-            if (gameOverManager != null) gameOverManager.TriggerGameOver();
-        }
+            StartCoroutine(GameOverCurseRoutine());
+    }
+
+    private IEnumerator GameOverCurseRoutine()
+    {
+        ShowCursePopup("INSTANT DEATH!");
+        
+        Time.timeScale = 0f;
+        if (playerMovement != null) playerMovement.isFrozen = true;
+
+        yield return new WaitForSecondsRealtime(2.5f);
+
+        if (gameOverManager != null) 
+            gameOverManager.TriggerGameOver();
     }
 
     private void ShowCursePopup(string message)
@@ -134,27 +157,26 @@ public class CurseManager : MonoBehaviour
     private IEnumerator FadeCursePopup()
     {
         GameObject uiObj = cursePanel != null ? cursePanel : curseText.gameObject;
-        CanvasGroup cg = uiObj.GetComponent<CanvasGroup>();
-        if (cg == null) cg = uiObj.AddComponent<CanvasGroup>();
+        CanvasGroup cg = cursePanel != null ? cursePanelCg : curseTextCg;
 
         // Fade in
         float t = 0;
         while (t < 0.3f)
         {
-            t += Time.deltaTime;
+            t += Time.unscaledDeltaTime;
             cg.alpha = t / 0.3f;
             yield return null;
         }
         cg.alpha = 1f;
 
         // Hold
-        yield return new WaitForSeconds(1.5f);
+        yield return new WaitForSecondsRealtime(1.5f);
 
         // Fade out
         t = 0;
         while (t < 0.5f)
         {
-            t += Time.deltaTime;
+            t += Time.unscaledDeltaTime;
             cg.alpha = 1f - (t / 0.5f);
             yield return null;
         }
@@ -168,15 +190,13 @@ public class CurseManager : MonoBehaviour
 
         if (cursePanel != null) 
         {
-            CanvasGroup cg = cursePanel.GetComponent<CanvasGroup>();
-            if (cg != null) cg.alpha = 0f;
+            if (cursePanelCg != null) cursePanelCg.alpha = 0f;
             cursePanel.SetActive(false);
         }
         
         if (curseText != null) 
         {
-            CanvasGroup cg = curseText.GetComponent<CanvasGroup>();
-            if (cg != null) cg.alpha = 0f;
+            if (curseTextCg != null) curseTextCg.alpha = 0f;
             curseText.gameObject.SetActive(false);
         }
     }
@@ -187,7 +207,6 @@ public class CurseManager : MonoBehaviour
         playerMovement.isInverted = true;
         yield return new WaitForSeconds(invertMouseTime);
         playerMovement.isInverted = false;
-        playerMovement.SyncWithRealMouse();
     }
 
     private IEnumerator InvisibleSnailRoutine()

@@ -39,8 +39,14 @@ public class PlayerCollision : MonoBehaviour
     private bool isAiming = false;
     private List<GameObject> arcDots = new List<GameObject>();
 
+    private Camera mainCamera;
+    private PlayerFollowMouse followMouse;
+
     void Start()
     {
+        mainCamera = Camera.main;
+        followMouse = GetComponent<PlayerFollowMouse>();
+
         currentHealth = maxHealth;
         healthBar.SetMaxHealth(maxHealth);
     }
@@ -48,17 +54,16 @@ public class PlayerCollision : MonoBehaviour
     void Update()
     {
         // ------------- AIMING THE SLINGSHOT -------------
-        PlayerFollowMouse followMouse = GetComponent<PlayerFollowMouse>();
 
         if (Input.GetMouseButtonDown(1) && saltCharges > 0)
         {
             isAiming = true;
-            slingshotStartMousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            slingshotStartMousePos = mainCamera.ScreenToWorldPoint(Input.mousePosition);
         }
 
         if (Input.GetMouseButton(1) && isAiming)
         {
-            Vector2 currentMousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            Vector2 currentMousePos = mainCamera.ScreenToWorldPoint(Input.mousePosition);
             Vector2 dragVector = (slingshotStartMousePos - currentMousePos) * throwPowerMultiplier;
             Vector2 startPos = transform.position;
             Vector2 targetPos = startPos + dragVector;
@@ -71,7 +76,7 @@ public class PlayerCollision : MonoBehaviour
             isAiming = false;
             ClearArcDots();
 
-            Vector2 finalMousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            Vector2 finalMousePos = mainCamera.ScreenToWorldPoint(Input.mousePosition);
             Vector2 dragVector = (slingshotStartMousePos - finalMousePos) * throwPowerMultiplier;
             Vector2 targetLandingSpot = (Vector2)transform.position + dragVector;
 
@@ -101,7 +106,10 @@ public class PlayerCollision : MonoBehaviour
 
                 saltCollected++;
                 spawner.AddSaltCollected();
-                Destroy(currentSalt);
+                
+                Salt saltComp = currentSalt.GetComponent<Salt>();
+                if (saltComp != null) saltComp.Collect();
+                else Destroy(currentSalt);
             }
             else if (currentSalt.CompareTag("SnailSalt"))
             {
@@ -111,7 +119,10 @@ public class PlayerCollision : MonoBehaviour
                 pickedUpCursedSaltFirstTime = true;
                 curseManager.TriggerRandomCurse();
                 GetHeal(5);
-                Destroy(currentSalt);
+                
+                Salt saltComp = currentSalt.GetComponent<Salt>();
+                if (saltComp != null) saltComp.Collect();
+                else Destroy(currentSalt);
             }
 
             isHoveringSalt = false;

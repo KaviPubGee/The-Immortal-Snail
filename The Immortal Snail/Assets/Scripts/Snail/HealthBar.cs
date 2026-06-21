@@ -31,7 +31,16 @@ public class HealthBar : MonoBehaviour
         if (slider.value <= 0 && !isDying)
         {
             isDying = true;
-            StartCoroutine(TransitionToThankYou());
+            
+            SnailEndingManager endingManager = FindFirstObjectByType<SnailEndingManager>();
+            if (endingManager != null)
+            {
+                endingManager.TriggerEnding();
+            }
+            else
+            {
+                StartCoroutine(TransitionToThankYou()); // Fallback just in case
+            }
         }
     }
 

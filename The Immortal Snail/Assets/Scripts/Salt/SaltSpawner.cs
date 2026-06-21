@@ -102,11 +102,5 @@ public class SaltSpawner : MonoBehaviour
     public void AddSaltCollected()
     {
         saltCollected ++;
-
-        if (saltCollected >= 5 && snailSaltUnlocked == false)
-        {
-            snailSaltUnlocked = true;
-            Debug.Log("The snail is evolving");
-        }
     }
 }

@@ -21,6 +21,11 @@ public class SettingsManager : MonoBehaviour
 
     void Start()
     {
+        if (UnityEngine.EventSystems.EventSystem.current != null)
+        {
+            UnityEngine.EventSystems.EventSystem.current.pixelDragThreshold = 20;
+        }
+
         if(Screen.fullScreen == true)
         {
             offDeselectedFullScreen.gameObject.SetActive(true);

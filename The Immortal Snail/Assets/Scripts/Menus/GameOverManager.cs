@@ -16,9 +16,12 @@ public class GameOverManager : MonoBehaviour
 
     [HideInInspector] public bool hasDied = false;
 
+    private CurseManager cachedCurseManager;
+
     void Start()
     {
         gameOverCanvas.SetActive(false);
+        cachedCurseManager = FindFirstObjectByType<CurseManager>();
     }
 
     public void TriggerGameOver()
@@ -33,10 +36,9 @@ public class GameOverManager : MonoBehaviour
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Confined;
 
-        CurseManager curseManager = FindFirstObjectByType<CurseManager>();
-        if (curseManager != null)
+        if (cachedCurseManager != null)
         {
-            curseManager.ForceClearUI();
+            // We removed ForceClearUI() so that "INSTANT DEATH!" can remain on screen while fading to black
         }
 
         StartCoroutine(DeathSequence());
