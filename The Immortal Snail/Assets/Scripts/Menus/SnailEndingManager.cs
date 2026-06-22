@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class SnailEndingManager : MonoBehaviour
 {
@@ -24,6 +25,12 @@ public class SnailEndingManager : MonoBehaviour
     public HealthBar snailHealthBar;
     public Transform snailTransform;
     public KeyCode debugTriggerKey = KeyCode.F5;
+    
+    [Header("Audio")]
+    public AudioSource qteAudioSource;
+    public AudioClip bucketDropSound;
+    public AudioClip keyPressSound;
+    public AudioClip errorSound;
 
     [Header("Dialogues")]
     [TextArea] public string[] preQteDialogue = new string[] { "Urgh... I dont feel so good" };
@@ -47,6 +54,7 @@ public class SnailEndingManager : MonoBehaviour
     private bool endingTriggered = false;
     private bool isResetting = false;
     private bool escapePhaseActive = false;
+    private bool isFadingOut = false;
     private PauseMenu pauseMenu;
 
     void Start()
@@ -78,6 +86,13 @@ public class SnailEndingManager : MonoBehaviour
                 
                 // Slowly center the hand on the Y axis as it's being dragged
                 player.transform.position = new Vector3(player.transform.position.x, Mathf.Lerp(player.transform.position.y, 0f, 2f * Time.deltaTime), player.transform.position.z);
+                
+                // Trigger the fade out once they are far enough off screen
+                if (player.transform.position.x > 10f && !isFadingOut)
+                {
+                    isFadingOut = true;
+                    StartCoroutine(FadeOutAndLoadNextScene());
+                }
             }
         }
 
@@ -110,6 +125,7 @@ public class SnailEndingManager : MonoBehaviour
                     if (qteButtonImages != null && currentQteIndex < qteButtonImages.Length && qteButtonImages[currentQteIndex] != null)
                     {
                         StartCoroutine(AnimateButtonPress(qteButtonImages[currentQteIndex]));
+                        if (qteAudioSource != null && keyPressSound != null) qteAudioSource.PlayOneShot(keyPressSound);
                     }
 
                     currentQteIndex++;
@@ -122,6 +138,7 @@ public class SnailEndingManager : MonoBehaviour
                 else
                 {
                     // WRONG KEY! Reset progress to the start.
+                    if (qteAudioSource != null && errorSound != null) qteAudioSource.PlayOneShot(errorSound);
                     ResetQTEProgress();
                 }
             }
@@ -224,6 +241,12 @@ public class SnailEndingManager : MonoBehaviour
         if (qteUIPanel != null)
         {
             qteUIPanel.SetActive(true);
+        }
+        
+        // Fade out music as the final sequence starts to build tension!
+        if (snailHealthBar != null && snailHealthBar.gameMusic != null)
+        {
+            StartCoroutine(FadeOutAudio(snailHealthBar.gameMusic, 2f));
         }
         
         qteActive = true;
@@ -340,12 +363,6 @@ public class SnailEndingManager : MonoBehaviour
         {
             SnailFollow snailFollow = snailTransform.GetComponent<SnailFollow>();
             if (snailFollow != null) snailFollow.isFrozen = true;
-        }
-
-        // Fade out music
-        if (snailHealthBar != null && snailHealthBar.gameMusic != null)
-        {
-            StartCoroutine(FadeOutAudio(snailHealthBar.gameMusic, 2f));
         }
 
         // Spawn and animate the bucket INSTANTLY
@@ -468,6 +485,34 @@ public class SnailEndingManager : MonoBehaviour
         Destroy(flashObj);
     }
 
+    private IEnumerator FadeOutAndLoadNextScene()
+    {
+        // Dynamically create a black overlay canvas
+        GameObject fadeObj = new GameObject("FadeScreen");
+        Canvas canvas = fadeObj.AddComponent<Canvas>();
+        canvas.renderMode = RenderMode.ScreenSpaceOverlay;
+        canvas.sortingOrder = 9999;
+        
+        UnityEngine.UI.Image img = fadeObj.AddComponent<UnityEngine.UI.Image>();
+        img.color = new Color(0f, 0f, 0f, 0f);
+        
+        float duration = 1.5f;
+        float elapsed = 0f;
+        
+        while (elapsed < duration)
+        {
+            elapsed += Time.unscaledDeltaTime;
+            float alpha = elapsed / duration;
+            img.color = new Color(0f, 0f, 0f, alpha);
+            yield return null;
+        }
+        
+        // Wait a small moment in pure black
+        yield return new WaitForSecondsRealtime(0.5f);
+        
+        SceneManager.LoadScene("Level 2");
+    }
+
     private IEnumerator FadeOutAudio(AudioSource audioSrc, float duration)
     {
         float startVol = audioSrc.volume;
@@ -510,7 +555,10 @@ public class SnailEndingManager : MonoBehaviour
         if (bucket == null) yield break;
         bucket.transform.position = targetPos;
 
-        // BOOM! Hit the ground, extreme squash effect!
+        // BOOM! Hit the ground!
+        if (qteAudioSource != null && bucketDropSound != null) qteAudioSource.PlayOneShot(bucketDropSound);
+
+        // Extreme squash effect!
         Vector3 squashScale = new Vector3(originalScale.x * 1.5f, originalScale.y * 0.5f, originalScale.z);
         bucket.transform.localScale = squashScale;
         
